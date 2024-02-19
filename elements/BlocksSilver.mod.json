@@ -1,0 +1,23 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [
+      {
+        "value": "CUSTOM:SilverBlock"
+      }
+    ],
+    "blocks": [
+      {
+        "value": "CUSTOM:SilverBlock"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "blocks/silver",
+    "namespace": "forge"
+  }
+}

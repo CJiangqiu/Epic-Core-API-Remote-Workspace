@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "epic_core_api:silver_block",
+    "epic_core_api:silver_ore"
+  ]
+}

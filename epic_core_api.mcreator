@@ -1,0 +1,436 @@
+{
+  "mod_elements": [
+    {
+      "name": "SilverDust",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/item/SilverDustItem.java",
+          "src/main/resources/assets/epic_core_api/models/item/silver_dust.json"
+        ]
+      }
+    },
+    {
+      "name": "SilverOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_core_api/forge/biome_modifier/silver_ore_biome_modifier.json",
+          "src/main/resources/assets/epic_core_api/models/item/silver_ore.json",
+          "src/main/java/net/eca/block/SilverOreBlock.java",
+          "src/main/resources/data/epic_core_api/worldgen/configured_feature/silver_ore.json",
+          "src/main/resources/assets/epic_core_api/models/block/silver_ore.json",
+          "src/main/resources/data/epic_core_api/worldgen/placed_feature/silver_ore.json",
+          "src/main/resources/assets/epic_core_api/blockstates/silver_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "SilverBlock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/epic_core_api/models/item/silver_block.json",
+          "src/main/resources/assets/epic_core_api/models/block/silver_block.json",
+          "src/main/java/net/eca/block/SilverBlockBlock.java",
+          "src/main/resources/assets/epic_core_api/blockstates/silver_block.json"
+        ]
+      }
+    },
+    {
+      "name": "SilverIngot",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/item/SilverIngotItem.java",
+          "src/main/resources/assets/epic_core_api/models/item/silver_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelIngot",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/item/SteelIngotItem.java",
+          "src/main/resources/assets/epic_core_api/models/item/steel_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelIngotRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_core_api/recipes/steel_ingot_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelHammer",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_hammer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/item/SteelHammerItem.java",
+          "src/main/resources/assets/epic_core_api/models/item/steel_hammer.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelHammerRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_hammer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_core_api/recipes/steel_hammer_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SilverIngotRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_core_api/recipes/silver_ingot_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SilverIngotRecipe2",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ingot_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_core_api/recipes/silver_ingot_recipe_2.json"
+        ]
+      }
+    },
+    {
+      "name": "SilverBlockRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_core_api/recipes/silver_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SilverDustRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_dust_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_core_api/recipes/silver_dust_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelBlock",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/block/SteelBlockBlock.java",
+          "src/main/resources/assets/epic_core_api/blockstates/steel_block.json",
+          "src/main/resources/assets/epic_core_api/models/block/steel_block.json",
+          "src/main/resources/assets/epic_core_api/models/item/steel_block.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelBlockRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_core_api/recipes/steel_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DustsSilver",
+      "type": "tag",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dusts_silver",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/dusts/silver.json"
+        ]
+      }
+    },
+    {
+      "name": "BlocksSilver",
+      "type": "tag",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blocks_silver",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/blocks/blocks/silver.json"
+        ]
+      }
+    },
+    {
+      "name": "OresSilver",
+      "type": "tag",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ores_silver",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/blocks/ores/silver.json"
+        ]
+      }
+    },
+    {
+      "name": "IngotsSteel",
+      "type": "tag",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ingots_steel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/ingots/steel.json"
+        ]
+      }
+    },
+    {
+      "name": "IngotsSilver",
+      "type": "tag",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ingots_silver",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/ingots/silver.json"
+        ]
+      }
+    },
+    {
+      "name": "BlocksSteel",
+      "type": "tag",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blocks_steel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/blocks/blocks/steel.json"
+        ]
+      }
+    },
+    {
+      "name": "HammersSteel",
+      "type": "tag",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammers_steel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/hammers/steel.json"
+        ]
+      }
+    },
+    {
+      "name": "Stamina",
+      "type": "attribute",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stamina",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Mana",
+      "type": "attribute",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "StaminaTextShow",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stamina_text_show",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/eca/procedures/StaminaTextShowProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StaminaManaOverlay",
+      "type": "overlay",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stamina_mana_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/client/screens/StaminaManaOverlayOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "ManaTextShow",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_text_show",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/eca/procedures/ManaTextShowProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "stamina",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "100.0"
+    },
+    {
+      "name": "mana",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "100.0"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.epic_core_api.silver_ore": "Silver Ore",
+      "block.epic_core_api.silver_block": "Silver Block",
+      "attribute.epic_core_api.stamina": "Stamina",
+      "item.epic_core_api.steel_ingot": "Steel Ingot",
+      "item.epic_core_api.steel_hammer": "Steel Hammer",
+      "attribute.epic_core_api.mana": "Mana",
+      "item.epic_core_api.silver_ingot": "Silver Ingot",
+      "item.epic_core_api.silver_dust": "Silver Dust",
+      "block.epic_core_api.steel_block": "Steel Block"
+    },
+    "zh_cn": {
+      "block.epic_core_api.silver_ore": "银矿",
+      "block.epic_core_api.silver_block": "银块",
+      "attribute.epic_core_api.stamina": "Stamina",
+      "item.epic_core_api.steel_ingot": "钢锭",
+      "item.epic_core_api.steel_hammer": "钢锤",
+      "attribute.epic_core_api.mana": "Mana",
+      "item.epic_core_api.silver_ingot": "银锭",
+      "item.epic_core_api.silver_dust": "银粉",
+      "block.epic_core_api.steel_block": "钢块"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "epic_core_api",
+    "modName": "Epic Core API",
+    "version": "1.20.1-1.0.0",
+    "description": "This is an API MOD, which adds some ores and a stamina or endurance and mana system",
+    "author": "CJiangqiu",
+    "websiteURL": "https://github.com/CJiangqiu/Epic-Core-API-Remote-Workspace",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "epic_core",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "jade",
+      "playeranimator",
+      "jei"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.eca",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

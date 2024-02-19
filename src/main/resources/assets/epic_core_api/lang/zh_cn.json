@@ -1,0 +1,11 @@
+{
+  "block.epic_core_api.silver_ore": "银矿",
+  "block.epic_core_api.silver_block": "银块",
+  "attribute.epic_core_api.stamina": "Stamina",
+  "item.epic_core_api.steel_ingot": "钢锭",
+  "item.epic_core_api.steel_hammer": "钢锤",
+  "attribute.epic_core_api.mana": "Mana",
+  "item.epic_core_api.silver_ingot": "银锭",
+  "item.epic_core_api.silver_dust": "银粉",
+  "block.epic_core_api.steel_block": "钢块"
+}

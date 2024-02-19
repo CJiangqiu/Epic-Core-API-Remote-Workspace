@@ -1,0 +1,11 @@
+{
+  "block.epic_core_api.silver_ore": "Silver Ore",
+  "block.epic_core_api.silver_block": "Silver Block",
+  "attribute.epic_core_api.stamina": "Stamina",
+  "item.epic_core_api.steel_ingot": "Steel Ingot",
+  "item.epic_core_api.steel_hammer": "Steel Hammer",
+  "attribute.epic_core_api.mana": "Mana",
+  "item.epic_core_api.silver_ingot": "Silver Ingot",
+  "item.epic_core_api.silver_dust": "Silver Dust",
+  "block.epic_core_api.steel_block": "Steel Block"
+}
