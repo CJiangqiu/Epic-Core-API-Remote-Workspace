@@ -1,5 +1,5 @@
-/*Sacrifice Enchantment: This is a custom enchantment that causes soul damage equal to the level of the enchantment to the entity being attacked.
-献祭附魔：这是一种自定义附魔，它会对被攻击的实体造成等于附魔等级的灵魂伤害。
+/*Reduce the maximum health of the attacked entity by the enchantment level.
+减少被攻击实体附魔等级的最大生命值。
 */
 
 package net.eca.enchantment;

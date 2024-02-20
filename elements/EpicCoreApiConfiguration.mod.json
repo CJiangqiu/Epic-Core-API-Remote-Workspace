@@ -1,0 +1,69 @@
+{
+  "_fv": 57,
+  "_type": "config",
+  "definition": {
+    "pools": [
+      {
+        "category": "damage_report",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "When true, send detailed information about the entity being injured.为真时，发送实体受伤的详细信息",
+            "vardisplay": "damage_report",
+            "varname": "damage_report",
+            "enablecomment": true,
+            "onlyComment": false,
+            "entityType": "EntityAgeable"
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 64.0,
+            "textDefault": "",
+            "comment": "Determined the range of damage reporting.这个值决定了伤害报告距离玩家起效的范围",
+            "vardisplay": "damage_report_range",
+            "varname": "damage_report_range",
+            "enablecomment": true,
+            "onlyComment": false,
+            "entityType": "EntityAgeable"
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 1.0,
+            "textDefault": "",
+            "comment": "This will determine the amount of soul damage caused by the level of sacrifice.这将决定sacrifice的等级造成的灵魂伤害数值。",
+            "vardisplay": "sacrifice_cause_soul_damage",
+            "varname": "sacrifice_cause_soul_damage",
+            "enablecomment": true,
+            "onlyComment": false,
+            "entityType": "EntityAgeable"
+          }
+        ]
+      }
+    ],
+    "file": "Epic Core API Configuration",
+    "configType": 0
+  }
+}

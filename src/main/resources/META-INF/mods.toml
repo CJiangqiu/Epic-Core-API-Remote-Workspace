@@ -8,9 +8,9 @@ version="1.20.11.0.0"
 displayName="Epic Core API"
 displayURL="https://github.com/CJiangqiu/Epic-Core-API-Remote-Workspace"
 logoFile="logo.png"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
+credits="Procedure:CJiangqiu;Mascot:Mcreator"
 authors="CJiangqiu"
-description="This is an API MOD, which adds some ores and a stamina or endurance and mana system"
+description="This is an API mod created by CJiangqiu"
 
 [[dependencies.epic_core_api]]
     modId="minecraft"

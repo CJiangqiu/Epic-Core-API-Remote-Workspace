@@ -556,17 +556,46 @@
         ],
         "dependencies": [
           {
-            "name": "damagesource",
-            "type": "damagesource"
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
           },
           {
             "name": "amount",
             "type": "number"
           },
           {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
             "name": "world",
             "type": "world"
           }
+        ]
+      }
+    },
+    {
+      "name": "EpicCoreApiConfiguration",
+      "type": "config",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epic_core_api_configuration",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/configuration/EpicCoreApiConfigurationConfiguration.java"
         ]
       }
     }
@@ -591,6 +620,7 @@
       "enchantment.epic_core_api.poisoning.desc": "Inflicts a level of poison effect based on the enchantment level.",
       "block.epic_core_api.silver_block": "Silver Block",
       "death.attack.soul_damage": "%1$s\u0027s soul has vanished",
+      "translation.key.cause": "caused by",
       "item.epic_core_api.steel_ingot": "Steel Ingot",
       "item.epic_core_api.steel_hammer": "Steel Hammer",
       "enchantment.epic_core_api.divine_wrath": "§cDivine Wrath",
@@ -599,8 +629,10 @@
       "item.epic_core_api.silver_ingot": "Silver Ingot",
       "enchantment.epic_core_api.sacrifice": "Sacrifice",
       "block.epic_core_api.silver_ore": "Silver Ore",
+      "config.epic_core_api.epic_core_api_configuration": "Epic Core API Configuration",
       "attribute.epic_core_api.stamina": "Stamina",
-      "enchantment.epic_core_api.sacrifice.desc": "Causing soul damage equal to enchantment level.",
+      "enchantment.epic_core_api.sacrifice.desc": "Reduce the maximum health of the attacked entity by the enchantment level.",
+      "translation.key.get": "get",
       "attribute.epic_core_api.mana": "Mana",
       "item.epic_core_api.silver_dust": "Silver Dust",
       "block.epic_core_api.steel_block": "Steel Block",
@@ -611,6 +643,7 @@
       "enchantment.epic_core_api.poisoning.desc": "造成基于附魔等级的中毒效果。",
       "block.epic_core_api.silver_block": "银块",
       "death.attack.soul_damage": "%1$s的灵魂消逝了",
+      "translation.key.cause": "来自于",
       "item.epic_core_api.steel_ingot": "钢锭",
       "item.epic_core_api.steel_hammer": "钢锤",
       "enchantment.epic_core_api.divine_wrath": "§c神怒",
@@ -619,8 +652,10 @@
       "item.epic_core_api.silver_ingot": "银锭",
       "enchantment.epic_core_api.sacrifice": "献祭",
       "block.epic_core_api.silver_ore": "银矿",
-      "enchantment.epic_core_api.sacrifice.desc": "造成基于附魔等级的灵魂伤害。",
+      "config.epic_core_api.epic_core_api_configuration": "Epic Core API配置文件",
+      "enchantment.epic_core_api.sacrifice.desc": "减少被攻击实体附魔等级的最大生命值。",
       "attribute.epic_core_api.stamina": "精力",
+      "translation.key.get": "受到",
       "attribute.epic_core_api.mana": "魔力",
       "item.epic_core_api.silver_dust": "银粉",
       "block.epic_core_api.steel_block": "钢块",
@@ -636,7 +671,7 @@
     "modid": "epic_core_api",
     "modName": "Epic Core API",
     "version": "1.20.1-1.0.0",
-    "description": "This is an API MOD, which adds some ores and a stamina or endurance and mana system",
+    "description": "This is an API mod created by CJiangqiu",
     "author": "CJiangqiu",
     "websiteURL": "https://github.com/CJiangqiu/Epic-Core-API-Remote-Workspace",
     "license": "Academic Free License v3.0",
@@ -650,7 +685,7 @@
       "jade"
     ],
     "currentGenerator": "forge-1.20.1",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "credits": "Procedure:CJiangqiu;Mascot:Mcreator",
     "modElementsPackage": "net.eca",
     "lockBaseModFiles": false
   },
