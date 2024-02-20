@@ -1,11 +1,20 @@
 {
-  "block.epic_core_api.silver_ore": "银矿",
+  "enchantment.epic_core_api.poisoning.desc": "造成基于附魔等级的中毒效果。",
   "block.epic_core_api.silver_block": "银块",
-  "attribute.epic_core_api.stamina": "Stamina",
+  "death.attack.soul_damage": "%1$s的灵魂消逝了",
   "item.epic_core_api.steel_ingot": "钢锭",
   "item.epic_core_api.steel_hammer": "钢锤",
-  "attribute.epic_core_api.mana": "Mana",
+  "enchantment.epic_core_api.divine_wrath": "§c神怒",
+  "death.attack.soul_damage.item": "%1$s的灵魂被%2$s使用%3$s献祭",
+  "enchantment.epic_core_api.poisoning": "淬毒",
   "item.epic_core_api.silver_ingot": "银锭",
+  "enchantment.epic_core_api.sacrifice": "献祭",
+  "block.epic_core_api.silver_ore": "银矿",
+  "enchantment.epic_core_api.sacrifice.desc": "造成基于附魔等级的灵魂伤害。",
+  "attribute.epic_core_api.stamina": "精力",
+  "attribute.epic_core_api.mana": "魔力",
   "item.epic_core_api.silver_dust": "银粉",
-  "block.epic_core_api.steel_block": "钢块"
+  "block.epic_core_api.steel_block": "钢块",
+  "death.attack.soul_damage.player": "%1$s的身体想要逃离%2$s,不幸的是他的灵魂没有跟上",
+  "enchantment.epic_core_api.divine_wrath.desc": "§c武器的原始伤害被替换为虚空伤害"
 }

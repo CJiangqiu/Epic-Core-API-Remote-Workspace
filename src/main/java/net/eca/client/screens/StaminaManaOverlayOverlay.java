@@ -45,13 +45,13 @@ public class StaminaManaOverlayOverlay {
 		RenderSystem.blendFuncSeparate(GlStateManager.SourceFactor.SRC_ALPHA, GlStateManager.DestFactor.ONE_MINUS_SRC_ALPHA, GlStateManager.SourceFactor.ONE, GlStateManager.DestFactor.ZERO);
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		if (true) {
-			event.getGuiGraphics().blit(new ResourceLocation("epic_core_api:textures/screens/stamina.png"), w / 2 + -164, h / 2 + 102, 0, 0, 16, 16, 16, 16);
+			event.getGuiGraphics().blit(new ResourceLocation("epic_core_api:textures/screens/stamina.png"), w / 2 + -160, h / 2 + 102, 0, 0, 16, 16, 16, 16);
 
-			event.getGuiGraphics().blit(new ResourceLocation("epic_core_api:textures/screens/mana.png"), w / 2 + 92, h / 2 + 101, 0, 0, 16, 16, 16, 16);
+			event.getGuiGraphics().blit(new ResourceLocation("epic_core_api:textures/screens/mana.png"), w / 2 + 91, h / 2 + 102, 0, 0, 16, 16, 16, 16);
 
 			event.getGuiGraphics().drawString(Minecraft.getInstance().font,
 
-					StaminaTextShowProcedure.execute(entity), w / 2 + -149, h / 2 + 105, -13369549, false);
+					StaminaTextShowProcedure.execute(entity), w / 2 + -144, h / 2 + 105, -13369549, false);
 			event.getGuiGraphics().drawString(Minecraft.getInstance().font,
 
 					ManaTextShowProcedure.execute(entity), w / 2 + 106, h / 2 + 103, -16711681, false);

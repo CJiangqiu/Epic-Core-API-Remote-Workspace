@@ -31,6 +31,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.eca.init.EpicCoreApiModTabs;
 import net.eca.init.EpicCoreApiModItems;
+import net.eca.init.EpicCoreApiModEnchantments;
 import net.eca.init.EpicCoreApiModBlocks;
 
 import java.util.function.Supplier;
@@ -55,6 +56,7 @@ public class EpicCoreApiMod {
 
 		EpicCoreApiModItems.REGISTRY.register(bus);
 
+		EpicCoreApiModEnchantments.REGISTRY.register(bus);
 		EpicCoreApiModTabs.REGISTRY.register(bus);
 
 	}

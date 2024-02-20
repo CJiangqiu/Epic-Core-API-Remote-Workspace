@@ -10,7 +10,7 @@
           "image": "stamina.png",
           "use1Xscale": false,
           "anchorPoint": "CENTER",
-          "x": 49,
+          "x": 53,
           "y": 222
         }
       },
@@ -27,7 +27,7 @@
             "falpha": 0.0
           },
           "anchorPoint": "CENTER",
-          "x": 64,
+          "x": 69,
           "y": 225
         }
       },
@@ -37,8 +37,8 @@
           "image": "mana.png",
           "use1Xscale": false,
           "anchorPoint": "CENTER",
-          "x": 305,
-          "y": 221
+          "x": 304,
+          "y": 222
         }
       },
       {

@@ -1,11 +1,20 @@
 {
-  "block.epic_core_api.silver_ore": "Silver Ore",
+  "enchantment.epic_core_api.poisoning.desc": "Inflicts a level of poison effect based on the enchantment level.",
   "block.epic_core_api.silver_block": "Silver Block",
-  "attribute.epic_core_api.stamina": "Stamina",
+  "death.attack.soul_damage": "%1$s\u0027s soul has vanished",
   "item.epic_core_api.steel_ingot": "Steel Ingot",
   "item.epic_core_api.steel_hammer": "Steel Hammer",
-  "attribute.epic_core_api.mana": "Mana",
+  "enchantment.epic_core_api.divine_wrath": "§cDivine Wrath",
+  "death.attack.soul_damage.item": "The soul of%1$sis sacrificed by%2$susing%3$s",
+  "enchantment.epic_core_api.poisoning": "Poisoning",
   "item.epic_core_api.silver_ingot": "Silver Ingot",
+  "enchantment.epic_core_api.sacrifice": "Sacrifice",
+  "block.epic_core_api.silver_ore": "Silver Ore",
+  "attribute.epic_core_api.stamina": "Stamina",
+  "enchantment.epic_core_api.sacrifice.desc": "Causing soul damage equal to enchantment level.",
+  "attribute.epic_core_api.mana": "Mana",
   "item.epic_core_api.silver_dust": "Silver Dust",
-  "block.epic_core_api.steel_block": "Steel Block"
+  "block.epic_core_api.steel_block": "Steel Block",
+  "death.attack.soul_damage.player": "%1$s\u0027s body wants to escape%2$s, but unfortunately their soul hasn\u0027t kept up",
+  "enchantment.epic_core_api.divine_wrath.desc": "§cThe original damage type of weapon is replaced by void damage."
 }

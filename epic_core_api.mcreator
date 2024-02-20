@@ -363,6 +363,212 @@
           }
         ]
       }
+    },
+    {
+      "name": "WeaponsNormalWeapon",
+      "type": "tag",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapons_normal_weapon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/weapons/normal_weapon.json"
+        ]
+      }
+    },
+    {
+      "name": "WeaponsGiantWeapon",
+      "type": "tag",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapons_giant_weapon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/weapons/giant_weapon.json"
+        ]
+      }
+    },
+    {
+      "name": "WeaponsMagicWeapon",
+      "type": "tag",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapons_magic_weapon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/weapons/magic_weapon.json"
+        ]
+      }
+    },
+    {
+      "name": "SoulDamage",
+      "type": "damagetype",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "soul_damage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/epic_core_api/damage_type/soul_damage.json"
+        ]
+      }
+    },
+    {
+      "name": "SoulDamageAttack",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "soul_damage_attack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/procedures/SoulDamageAttackProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "damagesource",
+            "type": "damagesource"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sacrifice",
+      "type": "enchantment",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sacrifice",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/enchantment/SacrificeEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "SacrificeEnchantedItemAttack",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sacrifice_enchanted_item_attack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/procedures/SacrificeEnchantedItemAttackProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Poisoning",
+      "type": "enchantment",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "poisoning",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/enchantment/PoisoningEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "PoisoningEnchantedItemAttack",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "poisoning_enchanted_item_attack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/procedures/PoisoningEnchantedItemAttackProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "DivineWrath",
+      "type": "enchantment",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "divine_wrath",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/enchantment/DivineWrathEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "DivineWrathEnchantedItemAttack",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "divine_wrath_enchanted_item_attack",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DamageReport",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "damage_report",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/procedures/DamageReportProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "damagesource",
+            "type": "damagesource"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -382,26 +588,44 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.epic_core_api.silver_ore": "Silver Ore",
+      "enchantment.epic_core_api.poisoning.desc": "Inflicts a level of poison effect based on the enchantment level.",
       "block.epic_core_api.silver_block": "Silver Block",
-      "attribute.epic_core_api.stamina": "Stamina",
+      "death.attack.soul_damage": "%1$s\u0027s soul has vanished",
       "item.epic_core_api.steel_ingot": "Steel Ingot",
       "item.epic_core_api.steel_hammer": "Steel Hammer",
-      "attribute.epic_core_api.mana": "Mana",
+      "enchantment.epic_core_api.divine_wrath": "§cDivine Wrath",
+      "death.attack.soul_damage.item": "The soul of%1$sis sacrificed by%2$susing%3$s",
+      "enchantment.epic_core_api.poisoning": "Poisoning",
       "item.epic_core_api.silver_ingot": "Silver Ingot",
+      "enchantment.epic_core_api.sacrifice": "Sacrifice",
+      "block.epic_core_api.silver_ore": "Silver Ore",
+      "attribute.epic_core_api.stamina": "Stamina",
+      "enchantment.epic_core_api.sacrifice.desc": "Causing soul damage equal to enchantment level.",
+      "attribute.epic_core_api.mana": "Mana",
       "item.epic_core_api.silver_dust": "Silver Dust",
-      "block.epic_core_api.steel_block": "Steel Block"
+      "block.epic_core_api.steel_block": "Steel Block",
+      "death.attack.soul_damage.player": "%1$s\u0027s body wants to escape%2$s, but unfortunately their soul hasn\u0027t kept up",
+      "enchantment.epic_core_api.divine_wrath.desc": "§cThe original damage type of weapon is replaced by void damage."
     },
     "zh_cn": {
-      "block.epic_core_api.silver_ore": "银矿",
+      "enchantment.epic_core_api.poisoning.desc": "造成基于附魔等级的中毒效果。",
       "block.epic_core_api.silver_block": "银块",
-      "attribute.epic_core_api.stamina": "Stamina",
+      "death.attack.soul_damage": "%1$s的灵魂消逝了",
       "item.epic_core_api.steel_ingot": "钢锭",
       "item.epic_core_api.steel_hammer": "钢锤",
-      "attribute.epic_core_api.mana": "Mana",
+      "enchantment.epic_core_api.divine_wrath": "§c神怒",
+      "death.attack.soul_damage.item": "%1$s的灵魂被%2$s使用%3$s献祭",
+      "enchantment.epic_core_api.poisoning": "淬毒",
       "item.epic_core_api.silver_ingot": "银锭",
+      "enchantment.epic_core_api.sacrifice": "献祭",
+      "block.epic_core_api.silver_ore": "银矿",
+      "enchantment.epic_core_api.sacrifice.desc": "造成基于附魔等级的灵魂伤害。",
+      "attribute.epic_core_api.stamina": "精力",
+      "attribute.epic_core_api.mana": "魔力",
       "item.epic_core_api.silver_dust": "银粉",
-      "block.epic_core_api.steel_block": "钢块"
+      "block.epic_core_api.steel_block": "钢块",
+      "death.attack.soul_damage.player": "%1$s的身体想要逃离%2$s,不幸的是他的灵魂没有跟上",
+      "enchantment.epic_core_api.divine_wrath.desc": "§c武器的原始伤害被替换为虚空伤害"
     }
   },
   "foldersRoot": {
@@ -423,9 +647,7 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [
-      "jade",
-      "playeranimator",
-      "jei"
+      "jade"
     ],
     "currentGenerator": "forge-1.20.1",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
