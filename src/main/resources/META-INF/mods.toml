@@ -4,7 +4,7 @@ license="Academic Free License v3.0"
 
 [[mods]]
 modId="epic_core_api"
-version="1.20.11.0.0"
+version="1.20.10.1.0"
 displayName="Epic Core API"
 displayURL="https://github.com/CJiangqiu/Epic-Core-API-Remote-Workspace"
 logoFile="logo.png"

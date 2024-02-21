@@ -10,7 +10,7 @@
     "name": "Steel Ingot",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "CUSTOM:EpicCoreAPI"
     },
     "stackSize": 64,
     "enchantability": 0,

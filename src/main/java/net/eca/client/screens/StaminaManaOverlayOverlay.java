@@ -51,10 +51,10 @@ public class StaminaManaOverlayOverlay {
 
 			event.getGuiGraphics().drawString(Minecraft.getInstance().font,
 
-					StaminaTextShowProcedure.execute(entity), w / 2 + -144, h / 2 + 105, -13369549, false);
+					StaminaTextShowProcedure.execute(entity), w / 2 + -144, h / 2 + 106, -13369549, false);
 			event.getGuiGraphics().drawString(Minecraft.getInstance().font,
 
-					ManaTextShowProcedure.execute(entity), w / 2 + 106, h / 2 + 103, -16711681, false);
+					ManaTextShowProcedure.execute(entity), w / 2 + 106, h / 2 + 105, -16711681, false);
 		}
 		RenderSystem.depthMask(true);
 		RenderSystem.defaultBlendFunc();

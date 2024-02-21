@@ -598,6 +598,62 @@
           "src/main/java/net/eca/configuration/EpicCoreApiConfigurationConfiguration.java"
         ]
       }
+    },
+    {
+      "name": "PresetCommand",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "preset_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/procedures/PresetCommandProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EpicCore",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epic_core",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/item/EpicCoreItem.java",
+          "src/main/resources/assets/epic_core_api/models/item/epic_core.json"
+        ]
+      }
+    },
+    {
+      "name": "EpicCoreAPI",
+      "type": "tab",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epic_core_api",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [
@@ -612,6 +668,12 @@
       "type": "number",
       "scope": "player_lifetime",
       "value": "100.0"
+    },
+    {
+      "name": "preset_command",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
     }
   ],
   "sound_elements": [],
@@ -633,11 +695,13 @@
       "attribute.epic_core_api.stamina": "Stamina",
       "enchantment.epic_core_api.sacrifice.desc": "Reduce the maximum health of the attacked entity by the enchantment level.",
       "translation.key.get": "get",
+      "item_group.epic_core_api.epic_core_api": "Epic Core API",
       "attribute.epic_core_api.mana": "Mana",
       "item.epic_core_api.silver_dust": "Silver Dust",
       "block.epic_core_api.steel_block": "Steel Block",
       "death.attack.soul_damage.player": "%1$s\u0027s body wants to escape%2$s, but unfortunately their soul hasn\u0027t kept up",
-      "enchantment.epic_core_api.divine_wrath.desc": "§cThe original damage type of weapon is replaced by void damage."
+      "enchantment.epic_core_api.divine_wrath.desc": "§cThe original damage type of weapon is replaced by void damage.",
+      "item.epic_core_api.epic_core": "Epic Core"
     },
     "zh_cn": {
       "enchantment.epic_core_api.poisoning.desc": "造成基于附魔等级的中毒效果。",
@@ -656,11 +720,13 @@
       "enchantment.epic_core_api.sacrifice.desc": "减少被攻击实体附魔等级的最大生命值。",
       "attribute.epic_core_api.stamina": "精力",
       "translation.key.get": "受到",
+      "item_group.epic_core_api.epic_core_api": "Epic Core API",
       "attribute.epic_core_api.mana": "魔力",
       "item.epic_core_api.silver_dust": "银粉",
       "block.epic_core_api.steel_block": "钢块",
       "death.attack.soul_damage.player": "%1$s的身体想要逃离%2$s,不幸的是他的灵魂没有跟上",
-      "enchantment.epic_core_api.divine_wrath.desc": "§c武器的原始伤害被替换为虚空伤害"
+      "enchantment.epic_core_api.divine_wrath.desc": "§c武器的原始伤害被替换为虚空伤害",
+      "item.epic_core_api.epic_core": "Epic Core"
     }
   },
   "foldersRoot": {
@@ -670,7 +736,7 @@
   "workspaceSettings": {
     "modid": "epic_core_api",
     "modName": "Epic Core API",
-    "version": "1.20.1-1.0.0",
+    "version": "1.20.1-0.1.0",
     "description": "This is an API mod created by CJiangqiu",
     "author": "CJiangqiu",
     "websiteURL": "https://github.com/CJiangqiu/Epic-Core-API-Remote-Workspace",

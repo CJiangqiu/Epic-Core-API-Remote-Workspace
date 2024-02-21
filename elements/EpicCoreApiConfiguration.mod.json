@@ -53,9 +53,27 @@
             "logicField": 0,
             "numberField": 1.0,
             "textDefault": "",
-            "comment": "This will determine the amount of soul damage caused by the level of sacrifice.这将决定sacrifice的等级造成的灵魂伤害数值。",
-            "vardisplay": "sacrifice_cause_soul_damage",
-            "varname": "sacrifice_cause_soul_damage",
+            "comment": "Control the maximum health reduction caused by sacrifice enchantment.控制献祭附魔造成的最大生命值减少",
+            "vardisplay": "sacrifice_max_health_reduce",
+            "varname": "sacrifice_max_health_reduce",
+            "enablecomment": true,
+            "onlyComment": false,
+            "entityType": "EntityAgeable"
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 2,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "You can enter the command you want to preset here.你可以在这里输入你想预置的命令。",
+            "vardisplay": "preset_command",
+            "varname": "preset_command",
             "enablecomment": true,
             "onlyComment": false,
             "entityType": "EntityAgeable"

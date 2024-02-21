@@ -3,14 +3,14 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "silver_ingot",
+    "texture": "epic_core",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Silver Ingot",
-    "rarity": "COMMON",
+    "name": "Epic Core",
+    "rarity": "EPIC",
     "creativeTab": {
-      "value": "CUSTOM:EpicCoreAPI"
+      "value": "No creative tab entry"
     },
     "stackSize": 64,
     "enchantability": 0,

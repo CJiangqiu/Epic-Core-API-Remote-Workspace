@@ -15,9 +15,11 @@
   "attribute.epic_core_api.stamina": "Stamina",
   "enchantment.epic_core_api.sacrifice.desc": "Reduce the maximum health of the attacked entity by the enchantment level.",
   "translation.key.get": "get",
+  "item_group.epic_core_api.epic_core_api": "Epic Core API",
   "attribute.epic_core_api.mana": "Mana",
   "item.epic_core_api.silver_dust": "Silver Dust",
   "block.epic_core_api.steel_block": "Steel Block",
   "death.attack.soul_damage.player": "%1$s\u0027s body wants to escape%2$s, but unfortunately their soul hasn\u0027t kept up",
-  "enchantment.epic_core_api.divine_wrath.desc": "§cThe original damage type of weapon is replaced by void damage."
+  "enchantment.epic_core_api.divine_wrath.desc": "§cThe original damage type of weapon is replaced by void damage.",
+  "item.epic_core_api.epic_core": "Epic Core"
 }

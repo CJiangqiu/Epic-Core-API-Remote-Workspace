@@ -12,6 +12,8 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 
 import net.eca.init.EpicCoreApiModEnchantments;
+import net.eca.configuration.EpicCoreApiConfigurationConfiguration;
+
 
 import javax.annotation.Nullable;
 
@@ -35,8 +37,9 @@ public class SacrificeEnchantedItemAttackProcedure {
 			ItemStack itemUsed = ((LivingEntity) sourceentity).getMainHandItem();
 			if (EnchantmentHelper.getItemEnchantmentLevel(EpicCoreApiModEnchantments.SACRIFICE.get(), itemUsed) != 0) {
 				int enchantmentLevel = itemUsed.getEnchantmentLevel(EpicCoreApiModEnchantments.SACRIFICE.get());
+				double maxHealthReduction = EpicCoreApiConfigurationConfiguration.SACRIFICE_MAX_HEALTH_REDUCE.get() * enchantmentLevel;
 				((LivingEntity) entity).getAttribute(net.minecraft.world.entity.ai.attributes.Attributes.MAX_HEALTH)
-						.setBaseValue((((LivingEntity) entity).getAttribute(net.minecraft.world.entity.ai.attributes.Attributes.MAX_HEALTH).getBaseValue() - enchantmentLevel));
+						.setBaseValue((((LivingEntity) entity).getAttribute(net.minecraft.world.entity.ai.attributes.Attributes.MAX_HEALTH).getBaseValue() - maxHealthReduction));
 			}
 		}
 	}

@@ -15,9 +15,11 @@
   "enchantment.epic_core_api.sacrifice.desc": "减少被攻击实体附魔等级的最大生命值。",
   "attribute.epic_core_api.stamina": "精力",
   "translation.key.get": "受到",
+  "item_group.epic_core_api.epic_core_api": "Epic Core API",
   "attribute.epic_core_api.mana": "魔力",
   "item.epic_core_api.silver_dust": "银粉",
   "block.epic_core_api.steel_block": "钢块",
   "death.attack.soul_damage.player": "%1$s的身体想要逃离%2$s,不幸的是他的灵魂没有跟上",
-  "enchantment.epic_core_api.divine_wrath.desc": "§c武器的原始伤害被替换为虚空伤害"
+  "enchantment.epic_core_api.divine_wrath.desc": "§c武器的原始伤害被替换为虚空伤害",
+  "item.epic_core_api.epic_core": "Epic Core"
 }
