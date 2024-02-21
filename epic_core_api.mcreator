@@ -654,6 +654,21 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "OverlayShow",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overlay_show",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/eca/procedures/OverlayShowProcedure.java"
+        ],
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [
