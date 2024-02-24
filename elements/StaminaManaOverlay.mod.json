@@ -10,8 +10,8 @@
           "image": "stamina.png",
           "use1Xscale": false,
           "anchorPoint": "CENTER",
-          "x": 53,
-          "y": 222
+          "x": 60,
+          "y": 205
         }
       },
       {
@@ -27,8 +27,8 @@
             "falpha": 0.0
           },
           "anchorPoint": "CENTER",
-          "x": 69,
-          "y": 226
+          "x": 78,
+          "y": 210
         }
       },
       {
@@ -38,7 +38,7 @@
           "use1Xscale": false,
           "anchorPoint": "CENTER",
           "x": 304,
-          "y": 222
+          "y": 204
         }
       },
       {
@@ -54,13 +54,16 @@
             "falpha": 0.0
           },
           "anchorPoint": "CENTER",
-          "x": 319,
-          "y": 225
+          "x": 320,
+          "y": 209
         }
       }
     ],
     "baseTexture": "",
     "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "OverlayShow"
+    },
     "gridSettings": {
       "sx": 18,
       "sy": 18,

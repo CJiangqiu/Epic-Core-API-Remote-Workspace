@@ -5,9 +5,10 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.Event;
 import net.minecraftforge.event.TickEvent;
 
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 
-import net.eca.network.EpicCoreApiModVariables;
+import net.eca.init.EpicCoreApiModAttributes;
 
 import javax.annotation.Nullable;
 
@@ -27,6 +28,6 @@ public class StaminaTextShowProcedure {
 	private static String execute(@Nullable Event event, Entity entity) {
 		if (entity == null)
 			return "";
-		return (entity.getCapability(EpicCoreApiModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new EpicCoreApiModVariables.PlayerVariables())).stamina + "/100.0";
+		return Math.ceil(((LivingEntity) entity).getAttribute(EpicCoreApiModAttributes.STAMINA.get()).getValue()) + "" + ("/" + Math.ceil(((LivingEntity) entity).getAttribute(EpicCoreApiModAttributes.STAMINA.get()).getBaseValue()));
 	}
 }

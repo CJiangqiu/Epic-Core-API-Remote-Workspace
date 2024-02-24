@@ -18,12 +18,12 @@ public class EpicCoreApiModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, EpicCoreApiMod.MODID);
 	public static final RegistryObject<CreativeModeTab> EPIC_CORE_API = REGISTRY.register("epic_core_api",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.epic_core_api.epic_core_api")).icon(() -> new ItemStack(EpicCoreApiModItems.EPIC_CORE.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(EpicCoreApiModBlocks.SILVER_BLOCK.get().asItem());
 				tabData.accept(EpicCoreApiModBlocks.SILVER_ORE.get().asItem());
-				tabData.accept(EpicCoreApiModItems.SILVER_DUST.get());
 				tabData.accept(EpicCoreApiModItems.SILVER_INGOT.get());
+				tabData.accept(EpicCoreApiModItems.SILVER_DUST.get());
+				tabData.accept(EpicCoreApiModBlocks.SILVER_BLOCK.get().asItem());
 				tabData.accept(EpicCoreApiModItems.STEEL_INGOT.get());
-				tabData.accept(EpicCoreApiModItems.STEEL_HAMMER.get());
 				tabData.accept(EpicCoreApiModBlocks.STEEL_BLOCK.get().asItem());
+				tabData.accept(EpicCoreApiModItems.STEEL_HAMMER.get());
 			}).withSearchBar().build());
 }

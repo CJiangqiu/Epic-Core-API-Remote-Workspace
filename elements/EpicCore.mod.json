@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "epic_core",
+    "texture": "epic_core_api",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],

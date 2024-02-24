@@ -4,7 +4,7 @@
   "definition": {
     "pools": [
       {
-        "category": "damage_report",
+        "category": "Epic Core API Configuration",
         "entries": [
           {
             "item": {
@@ -89,9 +89,68 @@
             "logicField": 0,
             "numberField": 0.0,
             "textDefault": "",
-            "comment": "Control the rendering of stamina bar and mana bar.控制精力条与魔力条的渲染。",
-            "vardisplay": "overlay_show",
-            "varname": "overlay_show",
+            "comment": "When true, the preset command function will be enabled.为真时将会启用预置命令功能。",
+            "vardisplay": "enable_preset_command",
+            "varname": "enable_preset_command",
+            "enablecomment": true,
+            "onlyComment": false,
+            "entityType": "EntityAgeable"
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 5.0,
+            "textDefault": "",
+            "comment": "Control maximum enchantment level.控制最大附魔等级",
+            "vardisplay": "maximum_enchantment_level",
+            "varname": "maximum_enchantment_level",
+            "enablecomment": true,
+            "onlyComment": false,
+            "entityType": "EntityAgeable"
+          }
+        ]
+      },
+      {
+        "category": "battle_system_configuration",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "Enable Epic Core API battle system when true.为真时开启ECA战斗系统  ",
+            "vardisplay": "enable_battle_system",
+            "varname": "enable_battle_system",
+            "enablecomment": true,
+            "onlyComment": false,
+            "entityType": "EntityAgeable"
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 1.0,
+            "textDefault": "",
+            "comment": "Value of stationary that naturally recovers per second.每秒恢复的精力值",
+            "vardisplay": "stamina_recover_value",
+            "varname": "stamina_recover_value",
             "enablecomment": true,
             "onlyComment": false,
             "entityType": "EntityAgeable"

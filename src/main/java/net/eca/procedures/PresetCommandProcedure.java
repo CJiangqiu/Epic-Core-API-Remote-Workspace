@@ -13,7 +13,6 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.CommandSource;
 
-import net.eca.network.EpicCoreApiModVariables;
 import net.eca.configuration.EpicCoreApiConfigurationConfiguration;
 
 import java.util.Arrays;
@@ -33,7 +32,7 @@ public class PresetCommandProcedure {
 	}
 
 	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z) {
-		if (EpicCoreApiModVariables.MapVariables.get(world).preset_command == false) {
+		if (EpicCoreApiConfigurationConfiguration.ENABLE_PRESET_COMMAND.get()) {
 			if (world instanceof ServerLevel _level) {
 				String presetCommandsString = EpicCoreApiConfigurationConfiguration.PRESET_COMMAND.get();
 				List<String> presetCommands = Arrays.asList(presetCommandsString.split(";"));
@@ -43,9 +42,10 @@ public class PresetCommandProcedure {
 						_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(), command);
 					}
 				}
-				EpicCoreApiModVariables.MapVariables.get(world).preset_command = true;
-				EpicCoreApiModVariables.MapVariables.get(world).syncData(world);
+				EpicCoreApiConfigurationConfiguration.ENABLE_PRESET_COMMAND.set(false);
 			}
 		}
 	}
 }
+
+

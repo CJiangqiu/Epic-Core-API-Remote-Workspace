@@ -21,13 +21,13 @@ import net.eca.EpicCoreApiMod;
 
 public class EpicCoreApiModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, EpicCoreApiMod.MODID);
-	public static final RegistryObject<Item> SILVER_BLOCK = block(EpicCoreApiModBlocks.SILVER_BLOCK);
 	public static final RegistryObject<Item> SILVER_ORE = block(EpicCoreApiModBlocks.SILVER_ORE);
-	public static final RegistryObject<Item> SILVER_DUST = REGISTRY.register("silver_dust", () -> new SilverDustItem());
 	public static final RegistryObject<Item> SILVER_INGOT = REGISTRY.register("silver_ingot", () -> new SilverIngotItem());
+	public static final RegistryObject<Item> SILVER_DUST = REGISTRY.register("silver_dust", () -> new SilverDustItem());
+	public static final RegistryObject<Item> SILVER_BLOCK = block(EpicCoreApiModBlocks.SILVER_BLOCK);
 	public static final RegistryObject<Item> STEEL_INGOT = REGISTRY.register("steel_ingot", () -> new SteelIngotItem());
-	public static final RegistryObject<Item> STEEL_HAMMER = REGISTRY.register("steel_hammer", () -> new SteelHammerItem());
 	public static final RegistryObject<Item> STEEL_BLOCK = block(EpicCoreApiModBlocks.STEEL_BLOCK);
+	public static final RegistryObject<Item> STEEL_HAMMER = REGISTRY.register("steel_hammer", () -> new SteelHammerItem());
 	public static final RegistryObject<Item> EPIC_CORE = REGISTRY.register("epic_core", () -> new EpicCoreItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {

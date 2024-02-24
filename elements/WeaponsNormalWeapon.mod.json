@@ -3,7 +3,29 @@
   "_type": "tag",
   "definition": {
     "type": "Items",
-    "items": [],
+    "items": [
+      {
+        "value": "CUSTOM:SteelHammer"
+      },
+      {
+        "value": "TAG:minecraft:swords"
+      },
+      {
+        "value": "TAG:minecraft:axes"
+      },
+      {
+        "value": "TAG:minecraft:pickaxes"
+      },
+      {
+        "value": "TAG:minecraft:shovels"
+      },
+      {
+        "value": "TAG:minecraft:hoes"
+      },
+      {
+        "value": "Items.SHIELD"
+      }
+    ],
     "blocks": [],
     "functions": [],
     "entities": [],
