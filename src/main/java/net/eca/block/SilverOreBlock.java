@@ -15,6 +15,8 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
 
+import net.eca.init.EpicCoreApiModItems;
+
 import java.util.List;
 import java.util.Collections;
 
@@ -45,6 +47,6 @@ public class SilverOreBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(this, 2));
+		return Collections.singletonList(new ItemStack(EpicCoreApiModItems.RAW_SILVER.get(), 2));
 	}
 }

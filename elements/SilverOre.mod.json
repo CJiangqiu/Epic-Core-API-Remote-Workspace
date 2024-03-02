@@ -46,7 +46,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:RawSilver"
     },
     "dropAmount": 2,
     "useLootTableForDrops": false,
@@ -133,7 +133,7 @@
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 4,
     "frequencyOnChunk": 9,
-    "minGenerateHeight": 1,
-    "maxGenerateHeight": 32
+    "minGenerateHeight": 16,
+    "maxGenerateHeight": 64
   }
 }

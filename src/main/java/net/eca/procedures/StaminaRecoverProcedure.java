@@ -8,7 +8,6 @@ import net.minecraftforge.event.TickEvent;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 
-import net.eca.network.EpicCoreApiModVariables;
 import net.eca.init.EpicCoreApiModAttributes;
 import net.eca.configuration.EpicCoreApiConfigurationConfiguration;
 
@@ -30,26 +29,11 @@ public class StaminaRecoverProcedure {
 	private static void execute(@Nullable Event event, Entity entity) {
 		if (entity == null)
 			return;
-		if ((entity.getCapability(EpicCoreApiModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new EpicCoreApiModVariables.PlayerVariables())).stamina < ((LivingEntity) entity).getAttribute(EpicCoreApiModAttributes.STAMINA.get())
-				.getBaseValue()) {
-			{
-				double _setval = (entity.getCapability(EpicCoreApiModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new EpicCoreApiModVariables.PlayerVariables())).stamina
-						+ (double) EpicCoreApiConfigurationConfiguration.STAMINA_RECOVER_VALUE.get() / 20;
-				entity.getCapability(EpicCoreApiModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-					capability.stamina = _setval;
-					capability.syncPlayerVariables(entity);
-				});
-			}
+		if (entity.getPersistentData().getDouble("stamina") < ((LivingEntity) entity).getAttribute(EpicCoreApiModAttributes.STAMINA.get()).getBaseValue()) {
+			entity.getPersistentData().putDouble("stamina", (entity.getPersistentData().getDouble("stamina") + (double) EpicCoreApiConfigurationConfiguration.STAMINA_RECOVER_VALUE.get() / 20));
 		}
-		if ((entity.getCapability(EpicCoreApiModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new EpicCoreApiModVariables.PlayerVariables())).stamina > ((LivingEntity) entity).getAttribute(EpicCoreApiModAttributes.STAMINA.get())
-				.getBaseValue()) {
-			{
-				double _setval = ((LivingEntity) entity).getAttribute(EpicCoreApiModAttributes.STAMINA.get()).getBaseValue();
-				entity.getCapability(EpicCoreApiModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-					capability.stamina = _setval;
-					capability.syncPlayerVariables(entity);
-				});
-			}
+		if (entity.getPersistentData().getDouble("stamina") > ((LivingEntity) entity).getAttribute(EpicCoreApiModAttributes.STAMINA.get()).getBaseValue()) {
+			entity.getPersistentData().putDouble("stamina", ((LivingEntity) entity).getAttribute(EpicCoreApiModAttributes.STAMINA.get()).getBaseValue());
 		}
 	}
 }

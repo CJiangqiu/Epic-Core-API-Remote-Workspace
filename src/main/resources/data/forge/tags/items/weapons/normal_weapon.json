@@ -6,7 +6,6 @@
     "#minecraft:axes",
     "#minecraft:pickaxes",
     "#minecraft:shovels",
-    "#minecraft:hoes",
-    "minecraft:shield"
+    "#minecraft:hoes"
   ]
 }

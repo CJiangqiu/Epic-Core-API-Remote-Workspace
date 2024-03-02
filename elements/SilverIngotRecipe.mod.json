@@ -6,12 +6,12 @@
     "recipeRetstackSize": 1,
     "group": "",
     "cookingBookCategory": "MISC",
-    "xpReward": 1.0,
+    "xpReward": 2.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "smeltingInputStack": {
-      "value": "CUSTOM:SilverOre"
+      "value": "CUSTOM:RawSilver"
     },
     "smeltingReturnStack": {
       "value": "CUSTOM:SilverIngot"

@@ -28,6 +28,6 @@ public class StaminaTextShowProcedure {
 	private static String execute(@Nullable Event event, Entity entity) {
 		if (entity == null)
 			return "";
-		return Math.ceil(((LivingEntity) entity).getAttribute(EpicCoreApiModAttributes.STAMINA.get()).getValue()) + "" + ("/" + Math.ceil(((LivingEntity) entity).getAttribute(EpicCoreApiModAttributes.STAMINA.get()).getBaseValue()));
+		return Math.ceil(entity.getPersistentData().getDouble("stamina")) + "" + ("/" + Math.ceil(((LivingEntity) entity).getAttribute(EpicCoreApiModAttributes.STAMINA.get()).getBaseValue()));
 	}
 }

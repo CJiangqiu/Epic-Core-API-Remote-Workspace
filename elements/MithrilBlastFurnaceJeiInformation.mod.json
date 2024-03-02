@@ -1,0 +1,14 @@
+{
+  "_fv": 57,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      {
+        "value": "CUSTOM:MithrilBlastFurnace"
+      }
+    ],
+    "information": [
+      "No matter what item is smelted, it takes 2.5 seconds per item."
+    ]
+  }
+}

@@ -3,11 +3,7 @@
   "_type": "tag",
   "definition": {
     "type": "Items",
-    "items": [
-      {
-        "value": "Items.TRIDENT"
-      }
-    ],
+    "items": [],
     "blocks": [],
     "functions": [],
     "entities": [],

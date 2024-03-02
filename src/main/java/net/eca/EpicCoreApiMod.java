@@ -30,9 +30,12 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.eca.init.EpicCoreApiModTabs;
+import net.eca.init.EpicCoreApiModParticleTypes;
+import net.eca.init.EpicCoreApiModMenus;
 import net.eca.init.EpicCoreApiModItems;
 import net.eca.init.EpicCoreApiModEnchantments;
 import net.eca.init.EpicCoreApiModBlocks;
+import net.eca.init.EpicCoreApiModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -53,12 +56,15 @@ public class EpicCoreApiMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		EpicCoreApiModBlocks.REGISTRY.register(bus);
-
+		EpicCoreApiModBlockEntities.REGISTRY.register(bus);
 		EpicCoreApiModItems.REGISTRY.register(bus);
 
 		EpicCoreApiModEnchantments.REGISTRY.register(bus);
 		EpicCoreApiModTabs.REGISTRY.register(bus);
 
+		EpicCoreApiModParticleTypes.REGISTRY.register(bus);
+
+		EpicCoreApiModMenus.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

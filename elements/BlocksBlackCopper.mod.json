@@ -1,0 +1,23 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [
+      {
+        "value": "CUSTOM:BlackCopperBlock"
+      }
+    ],
+    "blocks": [
+      {
+        "value": "CUSTOM:BlackCopperBlock"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "blocks/black_copper",
+    "namespace": "forge"
+  }
+}

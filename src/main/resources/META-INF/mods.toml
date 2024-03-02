@@ -4,7 +4,7 @@ license="Academic Free License v3.0"
 
 [[mods]]
 modId="epic_core_api"
-version="0.1.1"
+version="0.1.4"
 displayName="Epic Core API"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/epic-core-api"
 logoFile="logo.png"
@@ -22,7 +22,19 @@ description="This is an API mod created by CJiangqiu"
 
 
 [[dependencies.epic_core_api]]
+    modId="curios_api"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.epic_core_api]]
     modId="jade"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.epic_core_api]]
+    modId="jei"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"
