@@ -3,19 +3,18 @@ My CurseForge website:https://www.curseforge.com/minecraft/mc-mods/epic-core-api
 # How to Use My API?
 Firstly:You need add the JitPack repository to your build file
 ```java
-<repositories>
-		<repository>
-		    <id>jitpack.io</id>
-		    <url>https://jitpack.io</url>
-		</repository>
-	</repositories>
+	dependencyResolutionManagement {
+		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+		repositories {
+			mavenCentral()
+			maven { url 'https://jitpack.io' }
+		}
+	}
 ```
 Secondly: Add the dependency
 ```java
-<dependency>
-	    <groupId>com.github.CJiangqiu</groupId>
-	    <artifactId>Epic-Core-API-Remote-Workspace</artifactId>
-	    <version>1.20.1</version>
-	</dependency>
+dependencies {
+	        implementation 'com.github.CJiangqiu:Epic-Core-API-Remote-Workspace:1.20.1'
+	}
  ```
 ## The Battle System(WIP)
