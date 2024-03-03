@@ -1,0 +1,1 @@
+This is an API mod I created for my other mods. A total of 5 main materials have been added: Silver, Steel, Black Copper, Mithril, and Orichalcum, along with their related secondary materials and blocks. In addition, it also introduces a new type of damage: Soul Damage, and a combat system inspired by “The Elder Scrolls: Skyrim”.
