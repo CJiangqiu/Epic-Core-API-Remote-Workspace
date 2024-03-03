@@ -17,4 +17,4 @@ Secondly: Add the dependency
 	    <version>1.20.1</version>
 	</dependency>
  ```
-## The battle system(WIP)
+## The Battle System(WIP)
