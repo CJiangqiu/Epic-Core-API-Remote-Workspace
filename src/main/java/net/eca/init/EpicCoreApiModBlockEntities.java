@@ -18,8 +18,8 @@ import net.eca.EpicCoreApiMod;
 
 public class EpicCoreApiModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, EpicCoreApiMod.MODID);
-	public static final RegistryObject<BlockEntityType<?>> ELDER_METAL_WRECKAGE = register("elder_metal_wreckage", EpicCoreApiModBlocks.ELDER_METAL_WRECKAGE, ElderMetalWreckageBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> MITHRIL_BLAST_FURNACE = register("mithril_blast_furnace", EpicCoreApiModBlocks.MITHRIL_BLAST_FURNACE, MithrilBlastFurnaceBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> ELDER_METAL_WRECKAGE = register("elder_metal_wreckage", EpicCoreApiModBlocks.ELDER_METAL_WRECKAGE, ElderMetalWreckageBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> ORICHALCUM_BLOCK = register("orichalcum_block", EpicCoreApiModBlocks.ORICHALCUM_BLOCK, OrichalcumBlockBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {

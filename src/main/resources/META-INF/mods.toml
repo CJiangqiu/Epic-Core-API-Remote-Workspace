@@ -4,7 +4,7 @@ license="Academic Free License v3.0"
 
 [[mods]]
 modId="epic_core_api"
-version="0.1.4"
+version="0.1.5"
 displayName="Epic Core API"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/epic-core-api"
 logoFile="logo.png"

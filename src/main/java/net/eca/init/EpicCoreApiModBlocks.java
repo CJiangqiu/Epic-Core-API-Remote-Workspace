@@ -29,7 +29,7 @@ public class EpicCoreApiModBlocks {
 	public static final RegistryObject<Block> BLACK_COPPER_BLOCK = REGISTRY.register("black_copper_block", () -> new BlackCopperBlockBlock());
 	public static final RegistryObject<Block> MITHRIL_ORE = REGISTRY.register("mithril_ore", () -> new MithrilOreBlock());
 	public static final RegistryObject<Block> MITHRIL_BLOCK = REGISTRY.register("mithril_block", () -> new MithrilBlockBlock());
-	public static final RegistryObject<Block> ELDER_METAL_WRECKAGE = REGISTRY.register("elder_metal_wreckage", () -> new ElderMetalWreckageBlock());
 	public static final RegistryObject<Block> MITHRIL_BLAST_FURNACE = REGISTRY.register("mithril_blast_furnace", () -> new MithrilBlastFurnaceBlock());
+	public static final RegistryObject<Block> ELDER_METAL_WRECKAGE = REGISTRY.register("elder_metal_wreckage", () -> new ElderMetalWreckageBlock());
 	public static final RegistryObject<Block> ORICHALCUM_BLOCK = REGISTRY.register("orichalcum_block", () -> new OrichalcumBlockBlock());
 }

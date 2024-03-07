@@ -11,7 +11,7 @@ import net.eca.configuration.EpicCoreApiConfigurationConfiguration;
 
 public class SacrificeEnchantment extends Enchantment {
 	public SacrificeEnchantment(EquipmentSlot... slots) {
-		super(Enchantment.Rarity.UNCOMMON, EnchantmentCategory.WEAPON, slots);
+		super(Enchantment.Rarity.RARE, EnchantmentCategory.WEAPON, slots);
 	}
 
 	@Override

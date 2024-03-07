@@ -42,13 +42,13 @@ public class EpicCoreApiModItems {
 	public static final RegistryObject<Item> BLACK_COPPER_INGOT = REGISTRY.register("black_copper_ingot", () -> new BlackCopperIngotItem());
 	public static final RegistryObject<Item> BLACK_COPPER_BLOCK = block(EpicCoreApiModBlocks.BLACK_COPPER_BLOCK);
 	public static final RegistryObject<Item> MITHRIL_ORE = block(EpicCoreApiModBlocks.MITHRIL_ORE);
-	public static final RegistryObject<Item> MITHRIL_BLOCK = block(EpicCoreApiModBlocks.MITHRIL_BLOCK);
 	public static final RegistryObject<Item> MITHRIL_INGOT = REGISTRY.register("mithril_ingot", () -> new MithrilIngotItem());
-	public static final RegistryObject<Item> ELDER_METAL_WRECKAGE = block(EpicCoreApiModBlocks.ELDER_METAL_WRECKAGE);
-	public static final RegistryObject<Item> EPIC_CORE = REGISTRY.register("epic_core", () -> new EpicCoreItem());
-	public static final RegistryObject<Item> ORICHALCUM_INGOT = REGISTRY.register("orichalcum_ingot", () -> new OrichalcumIngotItem());
+	public static final RegistryObject<Item> MITHRIL_BLOCK = block(EpicCoreApiModBlocks.MITHRIL_BLOCK);
 	public static final RegistryObject<Item> MITHRIL_BLAST_FURNACE = block(EpicCoreApiModBlocks.MITHRIL_BLAST_FURNACE);
+	public static final RegistryObject<Item> ELDER_METAL_WRECKAGE = block(EpicCoreApiModBlocks.ELDER_METAL_WRECKAGE);
+	public static final RegistryObject<Item> ORICHALCUM_INGOT = REGISTRY.register("orichalcum_ingot", () -> new OrichalcumIngotItem());
 	public static final RegistryObject<Item> ORICHALCUM_BLOCK = block(EpicCoreApiModBlocks.ORICHALCUM_BLOCK);
+	public static final RegistryObject<Item> EPIC_CORE = REGISTRY.register("epic_core", () -> new EpicCoreItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

@@ -80,7 +80,7 @@
     {
       "name": "SteelIngotRecipe",
       "type": "recipe",
-      "sortid": 18,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_ingot_recipe",
@@ -107,7 +107,7 @@
     {
       "name": "SteelHammerRecipe",
       "type": "recipe",
-      "sortid": 19,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_hammer_recipe",
@@ -120,7 +120,7 @@
     {
       "name": "SilverIngotRecipe",
       "type": "recipe",
-      "sortid": 20,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_ingot_recipe",
@@ -133,7 +133,7 @@
     {
       "name": "SilverIngotRecipe2",
       "type": "recipe",
-      "sortid": 21,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_ingot_recipe_2",
@@ -146,7 +146,7 @@
     {
       "name": "SilverBlockRecipe",
       "type": "recipe",
-      "sortid": 22,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_block_recipe",
@@ -159,7 +159,7 @@
     {
       "name": "SilverDustRecipe",
       "type": "recipe",
-      "sortid": 23,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_dust_recipe",
@@ -188,7 +188,7 @@
     {
       "name": "SteelBlockRecipe",
       "type": "recipe",
-      "sortid": 24,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_block_recipe",
@@ -201,7 +201,7 @@
     {
       "name": "DustsSilver",
       "type": "tag",
-      "sortid": 25,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dusts_silver",
@@ -214,7 +214,7 @@
     {
       "name": "BlocksSilver",
       "type": "tag",
-      "sortid": 26,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blocks_silver",
@@ -227,7 +227,7 @@
     {
       "name": "OresSilver",
       "type": "tag",
-      "sortid": 27,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ores_silver",
@@ -240,7 +240,7 @@
     {
       "name": "IngotsSteel",
       "type": "tag",
-      "sortid": 28,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ingots_steel",
@@ -253,7 +253,7 @@
     {
       "name": "IngotsSilver",
       "type": "tag",
-      "sortid": 29,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ingots_silver",
@@ -266,7 +266,7 @@
     {
       "name": "BlocksSteel",
       "type": "tag",
-      "sortid": 30,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blocks_steel",
@@ -277,22 +277,9 @@
       }
     },
     {
-      "name": "HammersSteel",
-      "type": "tag",
-      "sortid": 31,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hammers_steel",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forge/tags/items/hammers/steel.json"
-        ]
-      }
-    },
-    {
       "name": "Stamina",
       "type": "attribute",
-      "sortid": 32,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stamina",
@@ -303,7 +290,7 @@
     {
       "name": "Mana",
       "type": "attribute",
-      "sortid": 33,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mana",
@@ -314,7 +301,7 @@
     {
       "name": "StaminaTextShow",
       "type": "procedure",
-      "sortid": 34,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stamina_text_show",
@@ -334,7 +321,7 @@
     {
       "name": "StaminaManaOverlay",
       "type": "overlay",
-      "sortid": 35,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stamina_mana_overlay",
@@ -347,7 +334,7 @@
     {
       "name": "ManaTextShow",
       "type": "procedure",
-      "sortid": 36,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mana_text_show",
@@ -367,7 +354,7 @@
     {
       "name": "WeaponsNormalWeapon",
       "type": "tag",
-      "sortid": 37,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weapons_normal_weapon",
@@ -380,7 +367,7 @@
     {
       "name": "WeaponsGiantWeapon",
       "type": "tag",
-      "sortid": 38,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weapons_giant_weapon",
@@ -393,7 +380,7 @@
     {
       "name": "WeaponsMagicWeapon",
       "type": "tag",
-      "sortid": 39,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weapons_magic_weapon",
@@ -406,7 +393,7 @@
     {
       "name": "SoulDamage",
       "type": "damagetype",
-      "sortid": 40,
+      "sortid": 42,
       "compiles": true,
       "locked_code": true,
       "registry_name": "soul_damage",
@@ -419,7 +406,7 @@
     {
       "name": "SoulDamageAttack",
       "type": "procedure",
-      "sortid": 41,
+      "sortid": 43,
       "compiles": true,
       "locked_code": true,
       "registry_name": "soul_damage_attack",
@@ -442,7 +429,7 @@
     {
       "name": "Sacrifice",
       "type": "enchantment",
-      "sortid": 42,
+      "sortid": 44,
       "compiles": true,
       "locked_code": true,
       "registry_name": "sacrifice",
@@ -455,7 +442,7 @@
     {
       "name": "SacrificeEnchantedItemAttack",
       "type": "procedure",
-      "sortid": 43,
+      "sortid": 45,
       "compiles": true,
       "locked_code": true,
       "registry_name": "sacrifice_enchanted_item_attack",
@@ -482,7 +469,7 @@
     {
       "name": "Poisoning",
       "type": "enchantment",
-      "sortid": 44,
+      "sortid": 46,
       "compiles": true,
       "locked_code": true,
       "registry_name": "poisoning",
@@ -495,7 +482,7 @@
     {
       "name": "PoisoningEnchantedItemAttack",
       "type": "procedure",
-      "sortid": 45,
+      "sortid": 47,
       "compiles": true,
       "locked_code": true,
       "registry_name": "poisoning_enchanted_item_attack",
@@ -509,7 +496,7 @@
     {
       "name": "DivineWrath",
       "type": "enchantment",
-      "sortid": 46,
+      "sortid": 48,
       "compiles": true,
       "locked_code": true,
       "registry_name": "divine_wrath",
@@ -522,7 +509,7 @@
     {
       "name": "DivineWrathEnchantedItemAttack",
       "type": "procedure",
-      "sortid": 47,
+      "sortid": 49,
       "compiles": true,
       "locked_code": true,
       "registry_name": "divine_wrath_enchanted_item_attack",
@@ -546,7 +533,7 @@
     {
       "name": "DamageReport",
       "type": "procedure",
-      "sortid": 48,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "damage_report",
@@ -589,7 +576,7 @@
     {
       "name": "EpicCoreApiConfiguration",
       "type": "config",
-      "sortid": 49,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "epic_core_api_configuration",
@@ -602,7 +589,7 @@
     {
       "name": "PresetCommand",
       "type": "procedure",
-      "sortid": 50,
+      "sortid": 52,
       "compiles": true,
       "locked_code": true,
       "registry_name": "preset_command",
@@ -633,7 +620,7 @@
     {
       "name": "EpicCore",
       "type": "item",
-      "sortid": 51,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "epic_core",
@@ -647,7 +634,7 @@
     {
       "name": "EpicCoreAPI",
       "type": "tab",
-      "sortid": 52,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "epic_core_api",
@@ -658,7 +645,7 @@
     {
       "name": "OverlayShow",
       "type": "procedure",
-      "sortid": 53,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "overlay_show",
@@ -678,14 +665,11 @@
     {
       "name": "NormalWeaponStaminaReduce",
       "type": "procedure",
-      "sortid": 54,
+      "sortid": 56,
       "compiles": true,
       "locked_code": true,
       "registry_name": "normal_weapon_stamina_reduce",
       "metadata": {
-        "files": [
-          "src/main/java/net/eca/procedures/NormalWeaponStaminaReduceProcedure.java"
-        ],
         "dependencies": [
           {
             "name": "sourceentity",
@@ -695,28 +679,9 @@
       }
     },
     {
-      "name": "StaminaRecover",
-      "type": "procedure",
-      "sortid": 55,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "stamina_recover",
-      "metadata": {
-        "files": [
-          "src/main/java/net/eca/procedures/StaminaRecoverProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "SunderArmor",
       "type": "enchantment",
-      "sortid": 56,
+      "sortid": 58,
       "compiles": true,
       "locked_code": true,
       "registry_name": "sunder_armor",
@@ -724,67 +689,6 @@
         "files": [
           "src/main/java/net/eca/enchantment/SunderArmorEnchantment.java"
         ]
-      }
-    },
-    {
-      "name": "StaminaGet",
-      "type": "procedure",
-      "sortid": 57,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "stamina_get",
-      "metadata": {
-        "return_type": "number",
-        "files": [
-          "src/main/java/net/eca/procedures/StaminaGetProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "GaintWeaponStaminaReduce",
-      "type": "procedure",
-      "sortid": 58,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "gaint_weapon_stamina_reduce",
-      "metadata": {
-        "files": [
-          "src/main/java/net/eca/procedures/GaintWeaponStaminaReduceProcedure.java"
-        ],
-        "dependencies": []
-      }
-    },
-    {
-      "name": "WeaponsRangedWeapon",
-      "type": "tag",
-      "sortid": 59,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "weapons_ranged_weapon",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forge/tags/items/weapons/ranged_weapon.json"
-        ]
-      }
-    },
-    {
-      "name": "RangedWeaponStaminaReduce",
-      "type": "procedure",
-      "sortid": 60,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "ranged_weapon_stamina_reduce",
-      "metadata": {
-        "files": [
-          "src/main/java/net/eca/procedures/RangedWeaponStaminaReduceProcedure.java"
-        ],
-        "dependencies": []
       }
     },
     {
@@ -966,7 +870,7 @@
     {
       "name": "MithrilIngot",
       "type": "item",
-      "sortid": 16,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mithril_ingot",
@@ -999,7 +903,7 @@
     {
       "name": "MithrilBlock",
       "type": "block",
-      "sortid": 15,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mithril_block",
@@ -1054,7 +958,7 @@
     {
       "name": "ElderMetalWreckage",
       "type": "block",
-      "sortid": 17,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elder_metal_wreckage",
@@ -1098,7 +1002,7 @@
     {
       "name": "OrichalcumIngot",
       "type": "item",
-      "sortid": 73,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orichalcum_ingot",
@@ -1112,7 +1016,7 @@
     {
       "name": "MithrilBlastFurnace",
       "type": "block",
-      "sortid": 74,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mithril_blast_furnace",
@@ -1129,7 +1033,7 @@
     {
       "name": "MithrilBlastFurnaceGui",
       "type": "gui",
-      "sortid": 75,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mithril_blast_furnace_gui",
@@ -1143,7 +1047,7 @@
     {
       "name": "MithrilBlastFurnaceReplace",
       "type": "procedure",
-      "sortid": 78,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mithril_blast_furnace_replace",
@@ -1174,7 +1078,7 @@
     {
       "name": "MithrilBlastFurnaceTickUpdate",
       "type": "procedure",
-      "sortid": 84,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mithril_blast_furnace_tick_update",
@@ -1205,7 +1109,7 @@
     {
       "name": "BurningParticle",
       "type": "particle",
-      "sortid": 86,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "burning_particle",
@@ -1219,7 +1123,7 @@
     {
       "name": "MbfArrowShow1",
       "type": "procedure",
-      "sortid": 87,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mbf_arrow_show_1",
@@ -1251,7 +1155,7 @@
     {
       "name": "MbfArrowShow2",
       "type": "procedure",
-      "sortid": 88,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mbf_arrow_show_2",
@@ -1283,7 +1187,7 @@
     {
       "name": "MbfArrowShow4",
       "type": "procedure",
-      "sortid": 90,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mbf_arrow_show_4",
@@ -1315,7 +1219,7 @@
     {
       "name": "MbfArrowShow5",
       "type": "procedure",
-      "sortid": 91,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mbf_arrow_show_5",
@@ -1347,7 +1251,7 @@
     {
       "name": "MbfArrowShow3",
       "type": "procedure",
-      "sortid": 92,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mbf_arrow_show_3",
@@ -1379,7 +1283,7 @@
     {
       "name": "BlackCopperBlockRecipe",
       "type": "recipe",
-      "sortid": 93,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_copper_block_recipe",
@@ -1392,7 +1296,7 @@
     {
       "name": "MithrilBlastFurnaceRecipe",
       "type": "recipe",
-      "sortid": 94,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mithril_blast_furnace_recipe",
@@ -1405,7 +1309,7 @@
     {
       "name": "MithrilBlastFurnaceSmelting",
       "type": "jeirecipetype",
-      "sortid": 95,
+      "sortid": 84,
       "compiles": true,
       "locked_code": true,
       "registry_name": "mithril_blast_furnace_smelting",
@@ -1419,7 +1323,7 @@
     {
       "name": "OrichalcumIngotJeiRecipe",
       "type": "jeirecipe",
-      "sortid": 96,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orichalcum_ingot_jei_recipe",
@@ -1432,7 +1336,7 @@
     {
       "name": "SteelIngotJeiInformation",
       "type": "jeiinformation",
-      "sortid": 97,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_ingot_jei_information",
@@ -1443,7 +1347,7 @@
     {
       "name": "IngotsMithril",
       "type": "tag",
-      "sortid": 98,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ingots_mithril",
@@ -1456,7 +1360,7 @@
     {
       "name": "BlocksMithril",
       "type": "tag",
-      "sortid": 99,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blocks_mithril",
@@ -1469,7 +1373,7 @@
     {
       "name": "IngotsOrichalcum",
       "type": "tag",
-      "sortid": 100,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ingots_orichalcum",
@@ -1482,7 +1386,7 @@
     {
       "name": "OrichalcumBlock",
       "type": "block",
-      "sortid": 101,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orichalcum_block",
@@ -1499,7 +1403,7 @@
     {
       "name": "BlocksOrichalcum",
       "type": "tag",
-      "sortid": 102,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blocks_orichalcum",
@@ -1512,7 +1416,7 @@
     {
       "name": "SteelHammerJeiInformation",
       "type": "jeiinformation",
-      "sortid": 103,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_hammer_jei_information",
@@ -1523,7 +1427,7 @@
     {
       "name": "SilverOreJeiInformation",
       "type": "jeiinformation",
-      "sortid": 104,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_ore_jei_information",
@@ -1534,7 +1438,7 @@
     {
       "name": "MithrilOreJeiInformation",
       "type": "jeiinformation",
-      "sortid": 105,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mithril_ore_jei_information",
@@ -1545,7 +1449,7 @@
     {
       "name": "MithrilBlastFurnaceJeiInformation",
       "type": "jeiinformation",
-      "sortid": 106,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mithril_blast_furnace_jei_information",
@@ -1556,12 +1460,267 @@
     {
       "name": "ElderMetalWreckageJeiInformation",
       "type": "jeiinformation",
-      "sortid": 107,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elder_metal_wreckage_jei_information",
       "metadata": {
         "files": []
+      }
+    },
+    {
+      "name": "SunderArmorEnchantedItemAttacked",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunder_armor_enchanted_item_attacked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/procedures/SunderArmorEnchantedItemAttackedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SoulProtection",
+      "type": "enchantment",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "soul_protection",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/enchantment/SoulProtectionEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "Phantom",
+      "type": "enchantment",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phantom",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/enchantment/PhantomEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "PhantomEnchantedArmorBeAttacked",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phantom_enchanted_armor_be_attacked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/procedures/PhantomEnchantedArmorBeAttackedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "damagesource",
+            "type": "damagesource"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DivineBlessing",
+      "type": "enchantment",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "divine_blessing",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/enchantment/DivineBlessingEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "DivineBlessingEnchantedArmorBeAttacked",
+      "type": "procedure",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "divine_blessing_enchanted_armor_be_attacked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/procedures/DivineBlessingEnchantedArmorBeAttackedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "damagesource",
+            "type": "damagesource"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Reflection",
+      "type": "enchantment",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reflection",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/enchantment/ReflectionEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "Hammers",
+      "type": "tag",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammers",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/hammers.json"
+        ]
+      }
+    },
+    {
+      "name": "Shields",
+      "type": "tag",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shields",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/shields.json"
+        ]
+      }
+    },
+    {
+      "name": "ReflectionEnchantedArmorBeAttacked",
+      "type": "procedure",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reflection_enchanted_armor_be_attacked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/procedures/ReflectionEnchantedArmorBeAttackedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Explosion",
+      "type": "enchantment",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "explosion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/enchantment/ExplosionEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "WeaponsRangedWeapon",
+      "type": "tag",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapons_ranged_weapon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/weapons/ranged_weapon.json"
+        ]
+      }
+    },
+    {
+      "name": "ExplosionEnchantedRangedWeaponHitEntity",
+      "type": "procedure",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "explosion_enchanted_ranged_weapon_hit_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/procedures/ExplosionEnchantedRangedWeaponHitEntityProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "ExplosionEnchantedRangedWeaponHitBlock",
+      "type": "procedure",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "explosion_enchanted_ranged_weapon_hit_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/procedures/ExplosionEnchantedRangedWeaponHitBlockProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "StaminaRecover",
+      "type": "procedure",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "stamina_recover",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/procedures/StaminaRecoverProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       }
     }
   ],
@@ -1582,96 +1741,118 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.epic_core_api.mithril_blast_furnace": "Mithril Blast Furnace",
+      "enchantment.epic_core_api.divine_blessing": "Divine Blessing",
+      "enchantment.epic_core_api.sunder_armor.desc": "Reduce the base armor value of the attacked entity by 0.5 points per enchantment level, lasting a duration based on the enchantment level.",
       "enchantment.epic_core_api.divine_wrath": "§cDivine Wrath",
       "jei.epic_core_api.steel_hammer_jei_information": "Used to grind some ingots into dust.",
-      "item.epic_core_api.silver_ingot": "Silver Ingot",
-      "enchantment.epic_core_api.sacrifice": "Sacrifice",
+      "enchantment.epic_core_api.phantom": "§5Phantom",
       "config.epic_core_api.epic_core_api_configuration": "Epic Core API Configuration",
       "block.epic_core_api.silver_ore": "Silver Ore",
       "item.epic_core_api.black_copper_ingot_upgrade_smithing_template": "Black Copper Ingot Upgrade Smithing Template",
       "block.epic_core_api.elder_metal_wreckage": "§5Elder Metal Wreckage",
       "attribute.epic_core_api.stamina": "Stamina",
-      "jei.receipe_type.mithril_blast_furnace_smelting": "Mithril Blast Furnace Smelting",
-      "block.epic_core_api.mithril_blast_furnace.tip": "§4Warning! Detected incorrect melting products!",
+      "enchantment.epic_core_api.divine_blessing.desc": "§cImmune to Out of World Damage.",
       "item.epic_core_api.gold_dust": "Gold Dust",
-      "translation.key.get": " get ",
       "block.epic_core_api.orichalcum_block": "§dOrichalcum Block",
-      "item.epic_core_api.silver_dust": "Silver Dust",
       "death.attack.soul_damage.player": "%1$s\u0027s body wants to escape%2$s, but unfortunately their soul hasn\u0027t kept up",
-      "item.epic_core_api.gold_silver_mixed_dust": "Gold Silver Mixed Dust",
       "enchantment.epic_core_api.divine_wrath.desc": "§cThe original damage type of weapon is replaced by void damage.",
-      "enchantment.epic_core_api.poisoning.desc": "Inflicts a level of poison effect based on the enchantment level.",
-      "jei.epic_core_api.mithril_blast_furnace_jei_information": "No matter what item is smelted, it takes 2.5 seconds per item.",
       "block.epic_core_api.black_copper_block": "§eBlack Copper Block",
-      "jei.epic_core_api.elder_metal_wreckage_jei_information": "Generates between layers 1 and 32 in the Overworld’s ocean biomes, with an average of 2 groups per chunk, and an average of 4 per group.",
-      "block.epic_core_api.silver_block": "Silver Block",
       "death.attack.soul_damage": "%1$s\u0027s soul has vanished",
       "translation.key.cause": " caused by ",
       "item.epic_core_api.steel_ingot": "Steel Ingot",
       "item.epic_core_api.steel_hammer": "Steel Hammer",
-      "death.attack.soul_damage.item": "The soul of%1$sis sacrificed by%2$susing%3$s",
-      "item.epic_core_api.orichalcum_ingot": "Orichalcum Ingot",
-      "enchantment.epic_core_api.poisoning": "Poisoning",
-      "item.epic_core_api.black_copper_ingot": "Black Copper Ingot",
       "jei.epic_core_api.steel_ingot_jei_information": "Can be smelted from Iron Ingots.",
       "item.epic_core_api.raw_silver": "Raw Silver",
       "block.epic_core_api.mithril_ore": "§bMithril Ore",
-      "jei.epic_core_api.mithril_ore_jei_information": "Generates between layers 1 and 32 in the Overworld, with an average of 5 groups per chunk, and an average of 3 per group.",
-      "enchantment.epic_core_api.sacrifice.desc": "Reduce the maximum health of the attacked entity by the enchantment level.",
-      "item_group.epic_core_api.epic_core_api": "Epic Core API",
+      "enchantment.epic_core_api.sacrifice.desc": "§5Reduce the maximum health of the attacked entity by the enchantment level.",
+      "enchantment.epic_core_api.reflection": "§Reflection",
       "block.epic_core_api.mithril_block": "§bBlock of Mithril",
       "enchantment.epic_core_api.sunder_armor": "Sunder Armor",
       "item.epic_core_api.mithril_ingot": "Mithril Ingot",
       "attribute.epic_core_api.mana": "Mana",
+      "block.epic_core_api.mithril_blast_furnace": "Mithril Blast Furnace",
+      "item.epic_core_api.silver_ingot": "Silver Ingot",
+      "enchantment.epic_core_api.soul_protection.desc": "When suffering soul damage, reduce the soul damage by the value of the enchantment level.",
+      "enchantment.epic_core_api.sacrifice": "§5Sacrifice",
+      "jei.receipe_type.mithril_blast_furnace_smelting": "Mithril Blast Furnace Smelting",
+      "block.epic_core_api.mithril_blast_furnace.tip": "§4Warning! Detected incorrect melting products!",
+      "translation.key.get": " get ",
+      "enchantment.epic_core_api.phantom.desc": "§5Immune to Fall Damage, and has a 0.1*enchantment level chance to be immune to damage.",
+      "item.epic_core_api.silver_dust": "Silver Dust",
+      "item.epic_core_api.gold_silver_mixed_dust": "Gold Silver Mixed Dust",
+      "enchantment.epic_core_api.poisoning.desc": "Inflicts a level of poison effect based on the enchantment level.",
+      "jei.epic_core_api.mithril_blast_furnace_jei_information": "No matter what item is smelted, it takes 2.5 seconds per item.",
+      "jei.epic_core_api.elder_metal_wreckage_jei_information": "Generates between layers 1 and 32 in the Overworld’s ocean biomes, with an average of 2 groups per chunk, and an average of 4 per group.",
+      "block.epic_core_api.silver_block": "Silver Block",
+      "death.attack.soul_damage.item": "The soul of%1$sis sacrificed by%2$susing%3$s",
+      "item.epic_core_api.orichalcum_ingot": "Orichalcum Ingot",
+      "enchantment.epic_core_api.explosion.desc": "Cause a MOB-type explosion based on the enchantment level when the arrow touches an entity or block.",
+      "enchantment.epic_core_api.poisoning": "Poisoning",
+      "item.epic_core_api.black_copper_ingot": "Black Copper Ingot",
+      "enchantment.epic_core_api.soul_protection": "Soul Protection",
+      "jei.epic_core_api.mithril_ore_jei_information": "Generates between layers 1 and 32 in the Overworld, with an average of 5 groups per chunk, and an average of 3 per group.",
+      "enchantment.epic_core_api.reflection.desc": "§5When blocking, reflects damage value*0.1*enchantment level of magic damage to the attacking entity.",
+      "item_group.epic_core_api.epic_core_api": "Epic Core API",
       "block.epic_core_api.steel_block": "Steel Block",
+      "enchantment.epic_core_api.explosion": "Explosion",
       "jei.epic_core_api.silver_ore_jei_information": "Generates between layers 16 and 64 in the Overworld, with an average of 4 groups per chunk, and an average of 9 per group.",
       "item.epic_core_api.epic_core": "Epic Core"
     },
     "zh_cn": {
-      "block.epic_core_api.mithril_blast_furnace": "§b秘银高炉",
+      "enchantment.epic_core_api.divine_blessing": "§c神佑",
+      "enchantment.epic_core_api.sunder_armor.desc": "降低被攻击实体附魔等级*0.5点的护甲基础值，持续基于附魔等级的时间。",
       "enchantment.epic_core_api.divine_wrath": "§c神怒",
       "jei.epic_core_api.steel_hammer_jei_information": "用于将一些锭粉碎成粉尘。",
-      "item.epic_core_api.silver_ingot": "银锭",
-      "enchantment.epic_core_api.sacrifice": "献祭",
+      "enchantment.epic_core_api.phantom": "§5虚化",
       "config.epic_core_api.epic_core_api_configuration": "Epic Core API配置文件",
       "block.epic_core_api.silver_ore": "银矿",
       "item.epic_core_api.black_copper_ingot_upgrade_smithing_template": "乌铜锭升级模板",
       "block.epic_core_api.elder_metal_wreckage": "§d上古金属残骸",
       "attribute.epic_core_api.stamina": "精力",
-      "jei.receipe_type.mithril_blast_furnace_smelting": "秘银高炉熔炼",
-      "block.epic_core_api.mithril_blast_furnace.tip": "§4警告！检测到错误的熔炼产物！",
+      "enchantment.epic_core_api.divine_blessing.desc": "§c免疫虚空伤害。",
       "item.epic_core_api.gold_dust": "金粉",
-      "translation.key.get": " 受到 ",
       "block.epic_core_api.orichalcum_block": "§d奥利哈刚块",
-      "item.epic_core_api.silver_dust": "银粉",
       "death.attack.soul_damage.player": "%1$s的身体想要逃离%2$s,不幸的是他的灵魂没有跟上",
-      "item.epic_core_api.gold_silver_mixed_dust": "金银混合粉",
-      "enchantment.epic_core_api.divine_wrath.desc": "§c武器的原始伤害被替换为虚空伤害",
-      "enchantment.epic_core_api.poisoning.desc": "造成基于附魔等级的中毒效果。",
-      "jei.epic_core_api.mithril_blast_furnace_jei_information": "无论烧制什么物品都是2.5秒1个。",
+      "enchantment.epic_core_api.divine_wrath.desc": "§c武器的原始伤害被替换为虚空伤害。",
       "block.epic_core_api.black_copper_block": "§e乌铜块",
-      "jei.epic_core_api.elder_metal_wreckage_jei_information": "在主世界海洋类群系的1到32层生成，每区块平均生成2组，每组平均生成4个。",
-      "block.epic_core_api.silver_block": "银块",
       "death.attack.soul_damage": "%1$s的灵魂消逝了",
       "translation.key.cause": " 来自于 ",
       "item.epic_core_api.steel_ingot": "钢锭",
       "item.epic_core_api.steel_hammer": "钢锤",
-      "death.attack.soul_damage.item": "%1$s的灵魂被%2$s使用%3$s献祭",
-      "item.epic_core_api.orichalcum_ingot": "奥利哈刚锭",
-      "enchantment.epic_core_api.poisoning": "淬毒",
-      "item.epic_core_api.black_copper_ingot": "乌铜锭",
       "jei.epic_core_api.steel_ingot_jei_information": "可以由铁锭熔炼而成。",
       "item.epic_core_api.raw_silver": "粗银",
       "block.epic_core_api.mithril_ore": "§b秘银矿",
-      "jei.epic_core_api.mithril_ore_jei_information": "在主世界的1到32层生成，每区块平均生成5组，每组平均生成3个。",
-      "enchantment.epic_core_api.sacrifice.desc": "减少被攻击实体附魔等级的最大生命值。",
-      "item_group.epic_core_api.epic_core_api": "Epic Core API",
+      "enchantment.epic_core_api.sacrifice.desc": "§5减少被攻击实体附魔等级的最大生命值。",
+      "enchantment.epic_core_api.reflection": "§5反射",
       "block.epic_core_api.mithril_block": "§b秘银块",
       "enchantment.epic_core_api.sunder_armor": "破甲",
       "item.epic_core_api.mithril_ingot": "秘银锭",
       "attribute.epic_core_api.mana": "魔力",
+      "block.epic_core_api.mithril_blast_furnace": "§b秘银高炉",
+      "item.epic_core_api.silver_ingot": "银锭",
+      "enchantment.epic_core_api.soul_protection.desc": "当受到灵魂伤害时，减少附魔等级数值的灵魂伤害。",
+      "enchantment.epic_core_api.sacrifice": "§5献祭",
+      "jei.receipe_type.mithril_blast_furnace_smelting": "秘银高炉熔炼",
+      "block.epic_core_api.mithril_blast_furnace.tip": "§4警告！检测到错误的熔炼产物！",
+      "translation.key.get": " 受到 ",
+      "enchantment.epic_core_api.phantom.desc": "§5免疫摔落伤害，并且有0.1*附魔等级的概率免疫伤害。",
+      "item.epic_core_api.silver_dust": "银粉",
+      "item.epic_core_api.gold_silver_mixed_dust": "金银混合粉",
+      "enchantment.epic_core_api.poisoning.desc": "造成基于附魔等级的中毒效果。",
+      "jei.epic_core_api.mithril_blast_furnace_jei_information": "无论烧制什么物品都是2.5秒1个。",
+      "jei.epic_core_api.elder_metal_wreckage_jei_information": "在主世界海洋类群系的1到32层生成，每区块平均生成2组，每组平均生成4个。",
+      "block.epic_core_api.silver_block": "银块",
+      "death.attack.soul_damage.item": "%1$s的灵魂被%2$s使用%3$s献祭",
+      "item.epic_core_api.orichalcum_ingot": "奥利哈刚锭",
+      "enchantment.epic_core_api.explosion.desc": "对箭触碰到的实体或者方块造成一次基于附魔等级的MOB类型的爆炸。",
+      "enchantment.epic_core_api.poisoning": "淬毒",
+      "item.epic_core_api.black_copper_ingot": "乌铜锭",
+      "enchantment.epic_core_api.soul_protection": "灵魂保护",
+      "jei.epic_core_api.mithril_ore_jei_information": "在主世界的1到32层生成，每区块平均生成5组，每组平均生成3个。",
+      "enchantment.epic_core_api.reflection.desc": "§5格挡时反射伤害值*0.1*附魔等级的魔法伤害给攻击实体。",
+      "item_group.epic_core_api.epic_core_api": "Epic Core API",
       "block.epic_core_api.steel_block": "钢块",
+      "enchantment.epic_core_api.explosion": "爆炸",
       "jei.epic_core_api.silver_ore_jei_information": "在主世界的16到64层生成，每区块平均生成4组，每组平均生成9个。",
       "item.epic_core_api.epic_core": "Epic Core"
     }
@@ -1683,7 +1864,7 @@
   "workspaceSettings": {
     "modid": "epic_core_api",
     "modName": "Epic Core API",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "description": "This is an API mod created by CJiangqiu",
     "author": "CJiangqiu",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/epic-core-api",

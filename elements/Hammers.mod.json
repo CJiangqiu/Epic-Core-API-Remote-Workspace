@@ -13,7 +13,7 @@
     "entities": [],
     "biomes": [],
     "damageTypes": [],
-    "name": "hammers/steel",
+    "name": "hammers",
     "namespace": "forge"
   }
 }

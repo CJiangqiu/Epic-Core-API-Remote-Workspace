@@ -6,7 +6,7 @@
     "minValue": 0.0,
     "maxValue": 100.0,
     "defaultValue": 100.0,
-    "isPersistent": true,
+    "isPersistent": false,
     "entities": [
       {
         "value": "EntityMob"

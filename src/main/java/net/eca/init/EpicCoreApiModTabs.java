@@ -32,11 +32,11 @@ public class EpicCoreApiModTabs {
 				tabData.accept(EpicCoreApiModItems.BLACK_COPPER_INGOT.get());
 				tabData.accept(EpicCoreApiModBlocks.BLACK_COPPER_BLOCK.get().asItem());
 				tabData.accept(EpicCoreApiModBlocks.MITHRIL_ORE.get().asItem());
-				tabData.accept(EpicCoreApiModBlocks.MITHRIL_BLOCK.get().asItem());
 				tabData.accept(EpicCoreApiModItems.MITHRIL_INGOT.get());
+				tabData.accept(EpicCoreApiModBlocks.MITHRIL_BLOCK.get().asItem());
+				tabData.accept(EpicCoreApiModBlocks.MITHRIL_BLAST_FURNACE.get().asItem());
 				tabData.accept(EpicCoreApiModBlocks.ELDER_METAL_WRECKAGE.get().asItem());
 				tabData.accept(EpicCoreApiModItems.ORICHALCUM_INGOT.get());
-				tabData.accept(EpicCoreApiModBlocks.MITHRIL_BLAST_FURNACE.get().asItem());
 				tabData.accept(EpicCoreApiModBlocks.ORICHALCUM_BLOCK.get().asItem());
 			}).withSearchBar().build());
 }

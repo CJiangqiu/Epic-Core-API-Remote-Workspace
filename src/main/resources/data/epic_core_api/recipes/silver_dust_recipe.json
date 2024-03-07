@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "epic_core_api:steel_hammer"
+      "tag": "forge:hammers"
     },
     {
       "item": "epic_core_api:silver_ingot"
