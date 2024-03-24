@@ -12,7 +12,7 @@ import net.eca.configuration.EpicCoreApiConfigurationConfiguration;
 
 public class ExplosionEnchantment extends Enchantment {
 	public ExplosionEnchantment(EquipmentSlot... slots) {
-		super(Enchantment.Rarity.COMMON, EnchantmentCategory.BOW, slots);
+		super(Enchantment.Rarity.UNCOMMON, EnchantmentCategory.BOW, slots);
 	}
 
 	@Override

@@ -38,5 +38,6 @@ public class EpicCoreApiModTabs {
 				tabData.accept(EpicCoreApiModBlocks.ELDER_METAL_WRECKAGE.get().asItem());
 				tabData.accept(EpicCoreApiModItems.ORICHALCUM_INGOT.get());
 				tabData.accept(EpicCoreApiModBlocks.ORICHALCUM_BLOCK.get().asItem());
+				tabData.accept(EpicCoreApiModItems.MAGIC_ARROW_STAFF.get());
 			}).withSearchBar().build());
 }

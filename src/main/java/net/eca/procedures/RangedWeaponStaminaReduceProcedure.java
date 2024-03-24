@@ -1,16 +1,17 @@
 /*
  * 
- package net.eca.procedures;
+package net.eca.procedures;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.Event;
-import net.minecraftforge.event.entity.living.LivingHurtEvent;
+import net.minecraftforge.event.entity.ProjectileImpactEvent;
 
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.projectile.Projectile;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.resources.ResourceLocation;
 
@@ -21,13 +22,13 @@ import javax.annotation.Nullable;
 import java.util.UUID;
 
 @Mod.EventBusSubscriber
-public class NormalWeaponStaminaReduceProcedure {
-    private static final UUID STAMINA_MODIFIER_UUID = UUID.fromString("38009820-6991-405a-a6c2-5109eb28ddc2");
+public class RangedWeaponStaminaReduceProcedure {
+    private static final UUID STAMINA_MODIFIER_UUID = UUID.fromString("d1b8f843-69e9-486c-b174-a4e86d930aa5");
 
     @SubscribeEvent
-    public static void onEntityAttacked(LivingHurtEvent event) {
+    public static void onProjectileImpact(ProjectileImpactEvent event) {
         if (event != null && event.getEntity() != null) {
-            execute(event, event.getSource().getEntity());
+            execute(event, ((Projectile)event.getEntity()).getOwner());
         }
     }
 
@@ -35,11 +36,11 @@ public class NormalWeaponStaminaReduceProcedure {
         execute(null, sourceentity);
     }
 
-    private static void execute(@Nullable Event event, Entity sourceentity) {
+    public static void execute(@Nullable Event event, Entity sourceentity) {
         if (sourceentity == null)
             return;
         if (((LivingEntity) sourceentity).getAttribute(EpicCoreApiModAttributes.STAMINA.get()).getValue() >= 5) {
-            if ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).is(ItemTags.create(new ResourceLocation("forge:weapons/normal_weapon")))) {
+            if ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).is(ItemTags.create(new ResourceLocation("forge:weapons/magic_weapon")))) {
                 AttributeModifier existingModifier = ((LivingEntity) sourceentity).getAttribute(EpicCoreApiModAttributes.STAMINA.get()).getModifier(STAMINA_MODIFIER_UUID);
                 if (existingModifier != null) {
                     ((LivingEntity) sourceentity).getAttribute(EpicCoreApiModAttributes.STAMINA.get()).removeModifier(STAMINA_MODIFIER_UUID);
@@ -53,4 +54,4 @@ public class NormalWeaponStaminaReduceProcedure {
         }
     }
 }
-*/
+ */

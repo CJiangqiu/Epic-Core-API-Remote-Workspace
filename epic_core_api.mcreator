@@ -1083,9 +1083,6 @@
       "locked_code": false,
       "registry_name": "mithril_blast_furnace_tick_update",
       "metadata": {
-        "files": [
-          "src/main/java/net/eca/procedures/MithrilBlastFurnaceTickUpdateProcedure.java"
-        ],
         "dependencies": [
           {
             "name": "x",
@@ -1677,34 +1674,6 @@
       }
     },
     {
-      "name": "ExplosionEnchantedRangedWeaponHitEntity",
-      "type": "procedure",
-      "sortid": 109,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "explosion_enchanted_ranged_weapon_hit_entity",
-      "metadata": {
-        "files": [
-          "src/main/java/net/eca/procedures/ExplosionEnchantedRangedWeaponHitEntityProcedure.java"
-        ],
-        "dependencies": []
-      }
-    },
-    {
-      "name": "ExplosionEnchantedRangedWeaponHitBlock",
-      "type": "procedure",
-      "sortid": 110,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "explosion_enchanted_ranged_weapon_hit_block",
-      "metadata": {
-        "files": [
-          "src/main/java/net/eca/procedures/ExplosionEnchantedRangedWeaponHitBlockProcedure.java"
-        ],
-        "dependencies": []
-      }
-    },
-    {
       "name": "StaminaRecover",
       "type": "procedure",
       "sortid": 111,
@@ -1720,6 +1689,118 @@
             "name": "entity",
             "type": "entity"
           }
+        ]
+      }
+    },
+    {
+      "name": "GiantWeaponStaminaReduce",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "giant_weapon_stamina_reduce",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/procedures/GiantWeaponStaminaReduceProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "RangedWeaponStaminaReduce",
+      "type": "procedure",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ranged_weapon_stamina_reduce",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/procedures/RangedWeaponStaminaReduceProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "ExplosionEnchantedRangedWeaponHit",
+      "type": "procedure",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "explosion_enchanted_ranged_weapon_hit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/procedures/ExplosionEnchantedRangedWeaponHitProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "MagicWeaponManaReduce",
+      "type": "procedure",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "magic_weapon_mana_reduce",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/procedures/MagicWeaponManaReduceProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "ManaRecover",
+      "type": "procedure",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mana_recover",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/procedures/ManaRecoverProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "MagicArrowStaff",
+      "type": "item",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "magic_arrow_staff",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/item/MagicArrowStaffItem.java",
+          "src/main/resources/assets/epic_core_api/models/item/magic_arrow_staff.json"
+        ]
+      }
+    },
+    {
+      "name": "ManaArrow",
+      "type": "item",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_arrow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/item/ManaArrowItem.java",
+          "src/main/resources/assets/epic_core_api/models/item/mana_arrow.json"
+        ]
+      }
+    },
+    {
+      "name": "ShotManaArrow",
+      "type": "projectile",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "shot_mana_arrow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/eca/entity/ShotManaArrowEntity.java",
+          "src/main/java/net/eca/client/renderer/ShotManaArrowRenderer.java"
         ]
       }
     }
@@ -1743,6 +1824,7 @@
     "en_us": {
       "enchantment.epic_core_api.divine_blessing": "Divine Blessing",
       "enchantment.epic_core_api.sunder_armor.desc": "Reduce the base armor value of the attacked entity by 0.5 points per enchantment level, lasting a duration based on the enchantment level.",
+      "mana.insufficient.tip": "",
       "enchantment.epic_core_api.divine_wrath": "§cDivine Wrath",
       "jei.epic_core_api.steel_hammer_jei_information": "Used to grind some ingots into dust.",
       "enchantment.epic_core_api.phantom": "§5Phantom",
@@ -1753,6 +1835,7 @@
       "attribute.epic_core_api.stamina": "Stamina",
       "enchantment.epic_core_api.divine_blessing.desc": "§cImmune to Out of World Damage.",
       "item.epic_core_api.gold_dust": "Gold Dust",
+      "stamina.insufficient.tip": "",
       "block.epic_core_api.orichalcum_block": "§dOrichalcum Block",
       "death.attack.soul_damage.player": "%1$s\u0027s body wants to escape%2$s, but unfortunately their soul hasn\u0027t kept up",
       "enchantment.epic_core_api.divine_wrath.desc": "§cThe original damage type of weapon is replaced by void damage.",
@@ -1770,12 +1853,14 @@
       "enchantment.epic_core_api.sunder_armor": "Sunder Armor",
       "item.epic_core_api.mithril_ingot": "Mithril Ingot",
       "attribute.epic_core_api.mana": "Mana",
+      "item.epic_core_api.mana_arrow": "Mana Arrow",
       "block.epic_core_api.mithril_blast_furnace": "Mithril Blast Furnace",
       "item.epic_core_api.silver_ingot": "Silver Ingot",
       "enchantment.epic_core_api.soul_protection.desc": "When suffering soul damage, reduce the soul damage by the value of the enchantment level.",
       "enchantment.epic_core_api.sacrifice": "§5Sacrifice",
       "jei.receipe_type.mithril_blast_furnace_smelting": "Mithril Blast Furnace Smelting",
       "block.epic_core_api.mithril_blast_furnace.tip": "§4Warning! Detected incorrect melting products!",
+      "item.epic_core_api.magic_arrow_staff": "Magic Arrow Staff",
       "translation.key.get": " get ",
       "enchantment.epic_core_api.phantom.desc": "§5Immune to Fall Damage, and has a 0.1*enchantment level chance to be immune to damage.",
       "item.epic_core_api.silver_dust": "Silver Dust",
@@ -1801,6 +1886,7 @@
     "zh_cn": {
       "enchantment.epic_core_api.divine_blessing": "§c神佑",
       "enchantment.epic_core_api.sunder_armor.desc": "降低被攻击实体附魔等级*0.5点的护甲基础值，持续基于附魔等级的时间。",
+      "mana.insufficient.tip": "魔力不足！",
       "enchantment.epic_core_api.divine_wrath": "§c神怒",
       "jei.epic_core_api.steel_hammer_jei_information": "用于将一些锭粉碎成粉尘。",
       "enchantment.epic_core_api.phantom": "§5虚化",
@@ -1811,6 +1897,7 @@
       "attribute.epic_core_api.stamina": "精力",
       "enchantment.epic_core_api.divine_blessing.desc": "§c免疫虚空伤害。",
       "item.epic_core_api.gold_dust": "金粉",
+      "stamina.insufficient.tip": "精力不足！",
       "block.epic_core_api.orichalcum_block": "§d奥利哈刚块",
       "death.attack.soul_damage.player": "%1$s的身体想要逃离%2$s,不幸的是他的灵魂没有跟上",
       "enchantment.epic_core_api.divine_wrath.desc": "§c武器的原始伤害被替换为虚空伤害。",
@@ -1828,12 +1915,14 @@
       "enchantment.epic_core_api.sunder_armor": "破甲",
       "item.epic_core_api.mithril_ingot": "秘银锭",
       "attribute.epic_core_api.mana": "魔力",
+      "item.epic_core_api.mana_arrow": "魔力箭",
       "block.epic_core_api.mithril_blast_furnace": "§b秘银高炉",
       "item.epic_core_api.silver_ingot": "银锭",
       "enchantment.epic_core_api.soul_protection.desc": "当受到灵魂伤害时，减少附魔等级数值的灵魂伤害。",
       "enchantment.epic_core_api.sacrifice": "§5献祭",
       "jei.receipe_type.mithril_blast_furnace_smelting": "秘银高炉熔炼",
       "block.epic_core_api.mithril_blast_furnace.tip": "§4警告！检测到错误的熔炼产物！",
+      "item.epic_core_api.magic_arrow_staff": "魔力箭法杖",
       "translation.key.get": " 受到 ",
       "enchantment.epic_core_api.phantom.desc": "§5免疫摔落伤害，并且有0.1*附魔等级的概率免疫伤害。",
       "item.epic_core_api.silver_dust": "银粉",
@@ -1864,7 +1953,7 @@
   "workspaceSettings": {
     "modid": "epic_core_api",
     "modName": "Epic Core API",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "description": "This is an API mod created by CJiangqiu",
     "author": "CJiangqiu",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/epic-core-api",

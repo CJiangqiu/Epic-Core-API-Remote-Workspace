@@ -19,6 +19,8 @@ import net.eca.item.SilverDustItem;
 import net.eca.item.RawSilverItem;
 import net.eca.item.OrichalcumIngotItem;
 import net.eca.item.MithrilIngotItem;
+import net.eca.item.ManaArrowItem;
+import net.eca.item.MagicArrowStaffItem;
 import net.eca.item.GoldSilverMixedDustItem;
 import net.eca.item.GoldDustItem;
 import net.eca.item.EpicCoreItem;
@@ -49,6 +51,8 @@ public class EpicCoreApiModItems {
 	public static final RegistryObject<Item> ORICHALCUM_INGOT = REGISTRY.register("orichalcum_ingot", () -> new OrichalcumIngotItem());
 	public static final RegistryObject<Item> ORICHALCUM_BLOCK = block(EpicCoreApiModBlocks.ORICHALCUM_BLOCK);
 	public static final RegistryObject<Item> EPIC_CORE = REGISTRY.register("epic_core", () -> new EpicCoreItem());
+	public static final RegistryObject<Item> MAGIC_ARROW_STAFF = REGISTRY.register("magic_arrow_staff", () -> new MagicArrowStaffItem());
+	public static final RegistryObject<Item> MANA_ARROW = REGISTRY.register("mana_arrow", () -> new ManaArrowItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

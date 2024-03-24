@@ -17,8 +17,8 @@ import java.util.HashMap;
 import java.util.UUID;
 
 @Mod.EventBusSubscriber
-public class StaminaRecoverProcedure {
-    private static final UUID STAMINA_MODIFIER_UUID = UUID.fromString("d45cc1d9-ab72-4f94-a8fa-8c57c22f5c00");
+public class ManaRecoverProcedure {
+    private static final UUID MANA_MODIFIER_UUID = UUID.fromString("68b2188e-0825-4458-b2f3-a9f6801b6b7b");
     private static HashMap<Entity, Integer> entityTickCounter = new HashMap<>();
 
     @SubscribeEvent
@@ -37,15 +37,15 @@ public class StaminaRecoverProcedure {
             return;
         int tickCount = entityTickCounter.getOrDefault(entity, 0) + 1;
         if (tickCount >= 20) {
-            if (((LivingEntity) entity).getAttribute(EpicCoreApiModAttributes.STAMINA.get()).getValue() < ((LivingEntity) entity).getAttribute(EpicCoreApiModAttributes.STAMINA.get()).getBaseValue()) {
-                AttributeModifier existingModifier = ((LivingEntity) entity).getAttribute(EpicCoreApiModAttributes.STAMINA.get()).getModifier(STAMINA_MODIFIER_UUID);
+            if (((LivingEntity) entity).getAttribute(EpicCoreApiModAttributes.MANA.get()).getValue() < ((LivingEntity) entity).getAttribute(EpicCoreApiModAttributes.MANA.get()).getBaseValue()) {
+                AttributeModifier existingModifier = ((LivingEntity) entity).getAttribute(EpicCoreApiModAttributes.MANA.get()).getModifier(MANA_MODIFIER_UUID);
                 if (existingModifier != null) {
-                    ((LivingEntity) entity).getAttribute(EpicCoreApiModAttributes.STAMINA.get()).removeModifier(STAMINA_MODIFIER_UUID);
-                    ((LivingEntity) entity).getAttribute(EpicCoreApiModAttributes.STAMINA.get())
-                            .addPermanentModifier(new AttributeModifier(STAMINA_MODIFIER_UUID, "stamina_recover", existingModifier.getAmount() + 1, AttributeModifier.Operation.ADDITION));
+                    ((LivingEntity) entity).getAttribute(EpicCoreApiModAttributes.MANA.get()).removeModifier(MANA_MODIFIER_UUID);
+                    ((LivingEntity) entity).getAttribute(EpicCoreApiModAttributes.MANA.get())
+                            .addPermanentModifier(new AttributeModifier(MANA_MODIFIER_UUID, "mana_recover", existingModifier.getAmount() + 1, AttributeModifier.Operation.ADDITION));
                 } else {
-                    ((LivingEntity) entity).getAttribute(EpicCoreApiModAttributes.STAMINA.get())
-                            .addPermanentModifier(new AttributeModifier(STAMINA_MODIFIER_UUID, "stamina_recover", 1, AttributeModifier.Operation.ADDITION));
+                    ((LivingEntity) entity).getAttribute(EpicCoreApiModAttributes.MANA.get())
+                            .addPermanentModifier(new AttributeModifier(MANA_MODIFIER_UUID, "mana_recover", 1, AttributeModifier.Operation.ADDITION));
                 }
             }
             entityTickCounter.put(entity, 0);
@@ -54,4 +54,3 @@ public class StaminaRecoverProcedure {
         }
     }
 }
-

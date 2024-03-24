@@ -33,6 +33,7 @@ import net.eca.init.EpicCoreApiModTabs;
 import net.eca.init.EpicCoreApiModParticleTypes;
 import net.eca.init.EpicCoreApiModMenus;
 import net.eca.init.EpicCoreApiModItems;
+import net.eca.init.EpicCoreApiModEntities;
 import net.eca.init.EpicCoreApiModEnchantments;
 import net.eca.init.EpicCoreApiModBlocks;
 import net.eca.init.EpicCoreApiModBlockEntities;
@@ -58,7 +59,7 @@ public class EpicCoreApiMod {
 		EpicCoreApiModBlocks.REGISTRY.register(bus);
 		EpicCoreApiModBlockEntities.REGISTRY.register(bus);
 		EpicCoreApiModItems.REGISTRY.register(bus);
-
+		EpicCoreApiModEntities.REGISTRY.register(bus);
 		EpicCoreApiModEnchantments.REGISTRY.register(bus);
 		EpicCoreApiModTabs.REGISTRY.register(bus);
 
